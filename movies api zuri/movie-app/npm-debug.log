@@ -1,0 +1,2372 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData react
+20 silly mapToRegistry name react
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/react
+24 silly fetchNamedPackageData react-dom
+25 silly mapToRegistry name react-dom
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+29 silly fetchNamedPackageData react-icons
+30 silly mapToRegistry name react-icons
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/react-icons
+34 verbose request uri https://registry.npmjs.org/react-icons
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 12:53:47 PM
+37 verbose request id c1931d479c17fef1
+38 verbose etag W/"50966d9216f2172b952464e19e0f1564"
+39 verbose lastModified Thu, 07 Sep 2023 03:06:24 GMT
+40 http request GET https://registry.npmjs.org/react-icons
+41 verbose request uri https://registry.npmjs.org/react
+42 verbose request no auth needed
+43 info attempt registry request try #1 at 12:53:48 PM
+44 verbose etag W/"8895b10bd58eebdea29796ea1eb86dac"
+45 verbose lastModified Wed, 13 Sep 2023 16:16:11 GMT
+46 http request GET https://registry.npmjs.org/react
+47 verbose request uri https://registry.npmjs.org/react-dom
+48 verbose request no auth needed
+49 info attempt registry request try #1 at 12:53:49 PM
+50 verbose etag W/"6ab75b991d4e5fd14942c9d2f79c30d8"
+51 verbose lastModified Wed, 13 Sep 2023 16:16:22 GMT
+52 http request GET https://registry.npmjs.org/react-dom
+53 http 304 https://registry.npmjs.org/react-dom
+54 verbose headers { date: 'Thu, 14 Sep 2023 12:53:49 GMT',
+54 verbose headers   connection: 'keep-alive',
+54 verbose headers   'cf-ray': '8068c669ff001af8-AMS',
+54 verbose headers   'cf-cache-status': 'HIT',
+54 verbose headers   age: '228',
+54 verbose headers   'cache-control': 'public, max-age=300',
+54 verbose headers   etag: '"6ab75b991d4e5fd14942c9d2f79c30d8"',
+54 verbose headers   'last-modified': 'Wed, 13 Sep 2023 16:16:22 GMT',
+54 verbose headers   vary: 'Accept-Encoding',
+54 verbose headers   server: 'cloudflare' }
+55 silly get cb [ 304,
+55 silly get   { date: 'Thu, 14 Sep 2023 12:53:49 GMT',
+55 silly get     connection: 'keep-alive',
+55 silly get     'cf-ray': '8068c669ff001af8-AMS',
+55 silly get     'cf-cache-status': 'HIT',
+55 silly get     age: '228',
+55 silly get     'cache-control': 'public, max-age=300',
+55 silly get     etag: '"6ab75b991d4e5fd14942c9d2f79c30d8"',
+55 silly get     'last-modified': 'Wed, 13 Sep 2023 16:16:22 GMT',
+55 silly get     vary: 'Accept-Encoding',
+55 silly get     server: 'cloudflare' } ]
+56 verbose etag https://registry.npmjs.org/react-dom from cache
+57 verbose get saving react-dom to /home/knight/.npm/registry.npmjs.org/react-dom/.cache.json
+58 http 304 https://registry.npmjs.org/react-icons
+59 verbose headers { date: 'Thu, 14 Sep 2023 12:53:49 GMT',
+59 verbose headers   connection: 'keep-alive',
+59 verbose headers   'cf-ray': '8068c669ed5f1cca-AMS',
+59 verbose headers   'cf-cache-status': 'HIT',
+59 verbose headers   age: '179',
+59 verbose headers   'cache-control': 'public, max-age=300',
+59 verbose headers   etag: '"50966d9216f2172b952464e19e0f1564"',
+59 verbose headers   'last-modified': 'Thu, 07 Sep 2023 03:06:24 GMT',
+59 verbose headers   vary: 'Accept-Encoding',
+59 verbose headers   server: 'cloudflare' }
+60 silly get cb [ 304,
+60 silly get   { date: 'Thu, 14 Sep 2023 12:53:49 GMT',
+60 silly get     connection: 'keep-alive',
+60 silly get     'cf-ray': '8068c669ed5f1cca-AMS',
+60 silly get     'cf-cache-status': 'HIT',
+60 silly get     age: '179',
+60 silly get     'cache-control': 'public, max-age=300',
+60 silly get     etag: '"50966d9216f2172b952464e19e0f1564"',
+60 silly get     'last-modified': 'Thu, 07 Sep 2023 03:06:24 GMT',
+60 silly get     vary: 'Accept-Encoding',
+60 silly get     server: 'cloudflare' } ]
+61 verbose etag https://registry.npmjs.org/react-icons from cache
+62 verbose get saving react-icons to /home/knight/.npm/registry.npmjs.org/react-icons/.cache.json
+63 http 304 https://registry.npmjs.org/react
+64 verbose headers { date: 'Thu, 14 Sep 2023 12:53:49 GMT',
+64 verbose headers   connection: 'keep-alive',
+64 verbose headers   'cf-ray': '8068c66a19360a60-AMS',
+64 verbose headers   'cf-cache-status': 'HIT',
+64 verbose headers   age: '28',
+64 verbose headers   'cache-control': 'public, max-age=300',
+64 verbose headers   etag: '"8895b10bd58eebdea29796ea1eb86dac"',
+64 verbose headers   'last-modified': 'Wed, 13 Sep 2023 16:16:11 GMT',
+64 verbose headers   vary: 'Accept-Encoding',
+64 verbose headers   server: 'cloudflare' }
+65 silly get cb [ 304,
+65 silly get   { date: 'Thu, 14 Sep 2023 12:53:49 GMT',
+65 silly get     connection: 'keep-alive',
+65 silly get     'cf-ray': '8068c66a19360a60-AMS',
+65 silly get     'cf-cache-status': 'HIT',
+65 silly get     age: '28',
+65 silly get     'cache-control': 'public, max-age=300',
+65 silly get     etag: '"8895b10bd58eebdea29796ea1eb86dac"',
+65 silly get     'last-modified': 'Wed, 13 Sep 2023 16:16:11 GMT',
+65 silly get     vary: 'Accept-Encoding',
+65 silly get     server: 'cloudflare' } ]
+66 verbose etag https://registry.npmjs.org/react from cache
+67 verbose get saving react to /home/knight/.npm/registry.npmjs.org/react/.cache.json
+68 silly resolveWithNewModule react-icons@4.11.0 checking installable status
+69 silly cache add args [ 'react-icons@^4.11.0', null ]
+70 verbose cache add spec react-icons@^4.11.0
+71 silly cache add parsed spec Result {
+71 silly cache add   raw: 'react-icons@^4.11.0',
+71 silly cache add   scope: null,
+71 silly cache add   name: 'react-icons',
+71 silly cache add   rawSpec: '^4.11.0',
+71 silly cache add   spec: '>=4.11.0 <5.0.0',
+71 silly cache add   type: 'range' }
+72 silly addNamed react-icons@>=4.11.0 <5.0.0
+73 verbose addNamed ">=4.11.0 <5.0.0" is a valid semver range for react-icons
+74 silly addNameRange { name: 'react-icons', range: '>=4.11.0 <5.0.0', hasData: false }
+75 silly mapToRegistry name react-icons
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry uri https://registry.npmjs.org/react-icons
+79 verbose addNameRange registry:https://registry.npmjs.org/react-icons not in flight; fetching
+80 verbose get https://registry.npmjs.org/react-icons not expired, no request
+81 silly addNameRange number 2 { name: 'react-icons', range: '>=4.11.0 <5.0.0', hasData: true }
+82 silly addNameRange versions [ 'react-icons',
+82 silly addNameRange   [ '0.0.1',
+82 silly addNameRange     '0.0.2',
+82 silly addNameRange     '0.0.3',
+82 silly addNameRange     '0.0.4',
+82 silly addNameRange     '0.1.0',
+82 silly addNameRange     '0.1.2',
+82 silly addNameRange     '0.1.3',
+82 silly addNameRange     '0.1.4',
+82 silly addNameRange     '0.1.5',
+82 silly addNameRange     '0.2.0',
+82 silly addNameRange     '0.2.1',
+82 silly addNameRange     '0.2.2',
+82 silly addNameRange     '0.3.0',
+82 silly addNameRange     '0.3.1',
+82 silly addNameRange     '1.0.0',
+82 silly addNameRange     '1.0.1',
+82 silly addNameRange     '1.0.2',
+82 silly addNameRange     '1.0.3',
+82 silly addNameRange     '1.0.5',
+82 silly addNameRange     '1.0.6',
+82 silly addNameRange     '2.0.0',
+82 silly addNameRange     '2.0.1',
+82 silly addNameRange     '2.1.0',
+82 silly addNameRange     '2.2.0',
+82 silly addNameRange     '2.2.1',
+82 silly addNameRange     '2.2.2',
+82 silly addNameRange     '2.2.3',
+82 silly addNameRange     '2.2.4',
+82 silly addNameRange     '2.2.5',
+82 silly addNameRange     '2.2.6',
+82 silly addNameRange     '2.2.7',
+82 silly addNameRange     '3.0.0-beta.1',
+82 silly addNameRange     '3.0.0-beta.2',
+82 silly addNameRange     '3.0.0-beta.3',
+82 silly addNameRange     '3.0.0-beta.4',
+82 silly addNameRange     '3.0.0-beta.5',
+82 silly addNameRange     '3.0.0',
+82 silly addNameRange     '3.0.1',
+82 silly addNameRange     '3.0.2',
+82 silly addNameRange     '3.0.3',
+82 silly addNameRange     '3.0.4',
+82 silly addNameRange     '3.0.5',
+82 silly addNameRange     '3.1.0-beta.1',
+82 silly addNameRange     '3.1.0',
+82 silly addNameRange     '3.2.0',
+82 silly addNameRange     '3.2.1',
+82 silly addNameRange     '3.2.2',
+82 silly addNameRange     '3.3.0',
+82 silly addNameRange     '3.4.0',
+82 silly addNameRange     '3.5.0',
+82 silly addNameRange     '3.6.0-beta1',
+82 silly addNameRange     '3.6.0-beta2',
+82 silly addNameRange     '3.6.0',
+82 silly addNameRange     '3.6.1',
+82 silly addNameRange     '3.7.0',
+82 silly addNameRange     '3.8.0',
+82 silly addNameRange     '3.9.0',
+82 silly addNameRange     '3.10.0',
+82 silly addNameRange     '3.11.0',
+82 silly addNameRange     '4.0.0',
+82 silly addNameRange     '4.1.0',
+82 silly addNameRange     '4.2.0',
+82 silly addNameRange     '4.3.0',
+82 silly addNameRange     '4.3.1',
+82 silly addNameRange     '4.4.0',
+82 silly addNameRange     '4.6.0',
+82 silly addNameRange     '4.7.1',
+82 silly addNameRange     '4.8.0',
+82 silly addNameRange     '4.8.1-snapshot.0',
+82 silly addNameRange     '4.8.1-snapshot.1',
+82 silly addNameRange     '4.8.1-snapshot.2',
+82 silly addNameRange     '4.9.0',
+82 silly addNameRange     '4.10.0',
+82 silly addNameRange     '4.10.1',
+82 silly addNameRange     '4.11.0' ] ]
+83 silly addNamed react-icons@4.11.0
+84 verbose addNamed "4.11.0" is a plain semver version for react-icons
+85 silly resolveWithNewModule react-dom@18.2.0 checking installable status
+86 silly cache add args [ 'react-dom@^18.2.0', null ]
+87 verbose cache add spec react-dom@^18.2.0
+88 silly cache add parsed spec Result {
+88 silly cache add   raw: 'react-dom@^18.2.0',
+88 silly cache add   scope: null,
+88 silly cache add   name: 'react-dom',
+88 silly cache add   rawSpec: '^18.2.0',
+88 silly cache add   spec: '>=18.2.0 <19.0.0',
+88 silly cache add   type: 'range' }
+89 silly addNamed react-dom@>=18.2.0 <19.0.0
+90 verbose addNamed ">=18.2.0 <19.0.0" is a valid semver range for react-dom
+91 silly addNameRange { name: 'react-dom', range: '>=18.2.0 <19.0.0', hasData: false }
+92 silly mapToRegistry name react-dom
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+96 verbose addNameRange registry:https://registry.npmjs.org/react-dom not in flight; fetching
+97 silly resolveWithNewModule react@18.2.0 checking installable status
+98 silly cache add args [ 'react@^18.2.0', null ]
+99 verbose cache add spec react@^18.2.0
+100 silly cache add parsed spec Result {
+100 silly cache add   raw: 'react@^18.2.0',
+100 silly cache add   scope: null,
+100 silly cache add   name: 'react',
+100 silly cache add   rawSpec: '^18.2.0',
+100 silly cache add   spec: '>=18.2.0 <19.0.0',
+100 silly cache add   type: 'range' }
+101 silly addNamed react@>=18.2.0 <19.0.0
+102 verbose addNamed ">=18.2.0 <19.0.0" is a valid semver range for react
+103 silly addNameRange { name: 'react', range: '>=18.2.0 <19.0.0', hasData: false }
+104 silly mapToRegistry name react
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry uri https://registry.npmjs.org/react
+108 verbose addNameRange registry:https://registry.npmjs.org/react not in flight; fetching
+109 verbose get https://registry.npmjs.org/react-dom not expired, no request
+110 silly addNameRange number 2 { name: 'react-dom', range: '>=18.2.0 <19.0.0', hasData: true }
+111 silly addNameRange versions [ 'react-dom',
+111 silly addNameRange   [ '0.1.0',
+111 silly addNameRange     '0.14.0-beta1',
+111 silly addNameRange     '0.14.0-beta2',
+111 silly addNameRange     '0.14.0-beta3',
+111 silly addNameRange     '0.14.0-rc1',
+111 silly addNameRange     '0.14.0',
+111 silly addNameRange     '0.14.1',
+111 silly addNameRange     '0.14.2',
+111 silly addNameRange     '0.14.3',
+111 silly addNameRange     '0.14.4',
+111 silly addNameRange     '0.14.5',
+111 silly addNameRange     '0.14.6',
+111 silly addNameRange     '0.15.0-alpha.1',
+111 silly addNameRange     '0.14.7',
+111 silly addNameRange     '15.0.0-rc.1',
+111 silly addNameRange     '15.0.0-rc.2',
+111 silly addNameRange     '0.14.8',
+111 silly addNameRange     '15.0.0',
+111 silly addNameRange     '15.0.1',
+111 silly addNameRange     '15.0.2-alpha.1',
+111 silly addNameRange     '15.0.2-alpha.2',
+111 silly addNameRange     '15.0.2-alpha.3',
+111 silly addNameRange     '15.0.2-alpha.4',
+111 silly addNameRange     '15.0.2',
+111 silly addNameRange     '15.0.3-alpha.1',
+111 silly addNameRange     '15.0.3-alpha.2',
+111 silly addNameRange     '15.1.0-alpha.1',
+111 silly addNameRange     '15.1.0',
+111 silly addNameRange     '15.2.0-rc.1',
+111 silly addNameRange     '15.2.0-rc.2',
+111 silly addNameRange     '15.2.0',
+111 silly addNameRange     '15.2.1',
+111 silly addNameRange     '15.3.0-rc.1',
+111 silly addNameRange     '15.3.0-rc.2',
+111 silly addNameRange     '15.3.0-rc.3',
+111 silly addNameRange     '15.3.0',
+111 silly addNameRange     '15.3.1-rc.1',
+111 silly addNameRange     '15.3.1-rc.2',
+111 silly addNameRange     '15.3.1',
+111 silly addNameRange     '15.3.2-rc.1',
+111 silly addNameRange     '15.3.2',
+111 silly addNameRange     '15.4.0-rc.1',
+111 silly addNameRange     '15.4.0-rc.2',
+111 silly addNameRange     '15.4.0-rc.3',
+111 silly addNameRange     '15.4.0-rc.4',
+111 silly addNameRange     '15.4.0',
+111 silly addNameRange     '15.4.1',
+111 silly addNameRange     '15.4.2',
+111 silly addNameRange     '16.0.0-alpha',
+111 silly addNameRange     '16.0.0-alpha.0',
+111 silly addNameRange     '16.0.0-alpha.2',
+111 silly addNameRange     '16.0.0-alpha.3',
+111 silly addNameRange     '16.0.0-alpha.4',
+111 silly addNameRange     '16.0.0-alpha.5',
+111 silly addNameRange     '16.0.0-alpha.6',
+111 silly addNameRange     '15.5.0-rc.1',
+111 silly addNameRange     '16.0.0-alpha.7',
+111 silly addNameRange     '15.5.0-rc.2',
+111 silly addNameRange     '16.0.0-alpha.8',
+111 silly addNameRange     '15.5.0',
+111 silly addNameRange     '15.5.1',
+111 silly addNameRange     '15.5.2',
+111 silly addNameRange     '15.5.3',
+111 silly addNameRange     '15.5.4',
+111 silly addNameRange     '16.0.0-alpha.9',
+111 silly addNameRange     '0.14.9',
+111 silly addNameRange     '16.0.0-alpha.10',
+111 silly addNameRange     '16.0.0-alpha.11',
+111 silly addNameRange     '16.0.0-alpha.12',
+111 silly addNameRange     '15.6.0-rc.1',
+111 silly addNameRange     '16.0.0-alpha.13',
+111 silly addNameRange     '15.6.0',
+111 silly addNameRange     '15.6.1',
+111 silly addNameRange     '16.0.0-beta.1',
+111 silly addNameRange     '16.0.0-beta.2',
+111 silly addNameRange     '16.0.0-beta.3',
+111 silly addNameRange     '16.0.0-beta.4',
+111 silly addNameRange     '16.0.0-beta.5',
+111 silly addNameRange     '16.0.0-rc.1',
+111 silly addNameRange     '16.0.0-rc.2',
+111 silly addNameRange     '16.0.0-rc.3',
+111 silly addNameRange     '15.6.2',
+111 silly addNameRange     '16.0.0',
+111 silly addNameRange     '16.1.0-beta',
+111 silly addNameRange     '16.1.0-beta.1',
+111 silly addNameRange     '16.1.0-rc',
+111 silly addNameRange     '16.1.0',
+111 silly addNameRange     '16.1.1',
+111 silly addNameRange     '16.2.0',
+111 silly addNameRange     '16.3.0-alpha.0',
+111 silly addNameRange     '16.3.0-alpha.1',
+111 silly addNameRange     '16.4.0-alpha.7926752',
+111 silly addNameRange     '16.4.0-alpha.3174632',
+111 silly addNameRange     '16.4.0-alpha.0911da3',
+111 silly addNameRange     '16.3.0-alpha.2',
+111 silly addNameRange     '16.3.0-alpha.3',
+111 silly addNameRange     '16.3.0-rc.0',
+111 silly addNameRange     '16.3.0',
+111 silly addNameRange     '16.3.1',
+111 silly addNameRange     '16.3.2',
+111 silly addNameRange     ... 1314 more items ] ]
+112 silly addNamed react-dom@18.2.0
+113 verbose addNamed "18.2.0" is a plain semver version for react-dom
+114 silly cache afterAdd react-icons@4.11.0
+115 verbose afterAdd /home/knight/.npm/react-icons/4.11.0/package/package.json not in flight; writing
+116 verbose get https://registry.npmjs.org/react not expired, no request
+117 silly addNameRange number 2 { name: 'react', range: '>=18.2.0 <19.0.0', hasData: true }
+118 silly addNameRange versions [ 'react',
+118 silly addNameRange   [ '0.0.1',
+118 silly addNameRange     '0.0.2',
+118 silly addNameRange     '0.0.3',
+118 silly addNameRange     '0.1.2',
+118 silly addNameRange     '0.2.0',
+118 silly addNameRange     '0.2.1',
+118 silly addNameRange     '0.2.2',
+118 silly addNameRange     '0.2.3',
+118 silly addNameRange     '0.2.4',
+118 silly addNameRange     '0.2.5',
+118 silly addNameRange     '0.2.6',
+118 silly addNameRange     '0.3.0',
+118 silly addNameRange     '0.3.4',
+118 silly addNameRange     '0.3.5',
+118 silly addNameRange     '0.5.0',
+118 silly addNameRange     '0.5.1',
+118 silly addNameRange     '0.5.2',
+118 silly addNameRange     '0.6.0',
+118 silly addNameRange     '0.6.1',
+118 silly addNameRange     '0.6.2',
+118 silly addNameRange     '0.6.3',
+118 silly addNameRange     '0.7.0',
+118 silly addNameRange     '0.7.1',
+118 silly addNameRange     '0.8.0',
+118 silly addNameRange     '0.9.0-rc1',
+118 silly addNameRange     '0.9.0',
+118 silly addNameRange     '0.10.0-rc1',
+118 silly addNameRange     '0.10.0',
+118 silly addNameRange     '0.11.0-rc1',
+118 silly addNameRange     '0.11.0',
+118 silly addNameRange     '0.11.1',
+118 silly addNameRange     '0.11.2',
+118 silly addNameRange     '0.12.0-rc1',
+118 silly addNameRange     '0.12.0',
+118 silly addNameRange     '0.12.1',
+118 silly addNameRange     '0.12.2',
+118 silly addNameRange     '0.13.0-alpha.1',
+118 silly addNameRange     '0.13.0-alpha.2',
+118 silly addNameRange     '0.13.0-beta.1',
+118 silly addNameRange     '0.13.0-beta.2',
+118 silly addNameRange     '0.13.0-rc1',
+118 silly addNameRange     '0.13.0-rc2',
+118 silly addNameRange     '0.13.0',
+118 silly addNameRange     '0.13.1',
+118 silly addNameRange     '0.13.2',
+118 silly addNameRange     '0.13.3',
+118 silly addNameRange     '0.14.0-alpha1',
+118 silly addNameRange     '0.14.0-alpha2',
+118 silly addNameRange     '0.14.0-alpha3',
+118 silly addNameRange     '0.14.0-beta1',
+118 silly addNameRange     '0.14.0-beta2',
+118 silly addNameRange     '0.14.0-beta3',
+118 silly addNameRange     '0.14.0-rc1',
+118 silly addNameRange     '0.14.0',
+118 silly addNameRange     '0.14.1',
+118 silly addNameRange     '0.14.2',
+118 silly addNameRange     '0.14.3',
+118 silly addNameRange     '0.14.4',
+118 silly addNameRange     '0.14.5',
+118 silly addNameRange     '0.14.6',
+118 silly addNameRange     '0.15.0-alpha.1',
+118 silly addNameRange     '0.14.7',
+118 silly addNameRange     '15.0.0-rc.1',
+118 silly addNameRange     '15.0.0-rc.2',
+118 silly addNameRange     '0.14.8',
+118 silly addNameRange     '15.0.0',
+118 silly addNameRange     '15.0.1',
+118 silly addNameRange     '15.0.2-alpha.1',
+118 silly addNameRange     '15.0.2-alpha.2',
+118 silly addNameRange     '15.0.2-alpha.3',
+118 silly addNameRange     '15.0.2-alpha.4',
+118 silly addNameRange     '15.0.2',
+118 silly addNameRange     '15.0.3-alpha.1',
+118 silly addNameRange     '15.0.3-alpha.2',
+118 silly addNameRange     '15.1.0-alpha.1',
+118 silly addNameRange     '15.1.0',
+118 silly addNameRange     '15.2.0-rc.1',
+118 silly addNameRange     '15.2.0-rc.2',
+118 silly addNameRange     '15.2.0',
+118 silly addNameRange     '15.2.1',
+118 silly addNameRange     '15.3.0-rc.1',
+118 silly addNameRange     '15.3.0-rc.2',
+118 silly addNameRange     '15.3.0-rc.3',
+118 silly addNameRange     '15.3.0',
+118 silly addNameRange     '15.3.1-rc.1',
+118 silly addNameRange     '15.3.1-rc.2',
+118 silly addNameRange     '15.3.1',
+118 silly addNameRange     '15.3.2-rc.1',
+118 silly addNameRange     '15.3.2',
+118 silly addNameRange     '15.4.0-rc.1',
+118 silly addNameRange     '15.4.0-rc.2',
+118 silly addNameRange     '15.4.0-rc.3',
+118 silly addNameRange     '15.4.0-rc.4',
+118 silly addNameRange     '15.4.0',
+118 silly addNameRange     '15.4.1',
+118 silly addNameRange     '15.4.2',
+118 silly addNameRange     '16.0.0-alpha',
+118 silly addNameRange     '16.0.0-alpha.0',
+118 silly addNameRange     '16.0.0-alpha.2',
+118 silly addNameRange     '16.0.0-alpha.3',
+118 silly addNameRange     ... 1359 more items ] ]
+119 silly addNamed react@18.2.0
+120 verbose addNamed "18.2.0" is a plain semver version for react
+121 verbose afterAdd /home/knight/.npm/react-icons/4.11.0/package/package.json written
+122 silly cache afterAdd react-dom@18.2.0
+123 verbose afterAdd /home/knight/.npm/react-dom/18.2.0/package/package.json not in flight; writing
+124 verbose afterAdd /home/knight/.npm/react-dom/18.2.0/package/package.json written
+125 silly cache afterAdd react@18.2.0
+126 verbose afterAdd /home/knight/.npm/react/18.2.0/package/package.json not in flight; writing
+127 verbose afterAdd /home/knight/.npm/react/18.2.0/package/package.json written
+128 silly fetchNamedPackageData loose-envify
+129 silly mapToRegistry name loose-envify
+130 silly mapToRegistry using default registry
+131 silly mapToRegistry registry https://registry.npmjs.org/
+132 silly mapToRegistry uri https://registry.npmjs.org/loose-envify
+133 verbose request uri https://registry.npmjs.org/loose-envify
+134 verbose request no auth needed
+135 info attempt registry request try #1 at 12:53:54 PM
+136 verbose etag W/"4ba161016ce13de8a39dcdf2180ac7cd"
+137 verbose lastModified Sun, 23 Jul 2023 04:49:39 GMT
+138 http request GET https://registry.npmjs.org/loose-envify
+139 http 304 https://registry.npmjs.org/loose-envify
+140 verbose headers { date: 'Thu, 14 Sep 2023 12:53:54 GMT',
+140 verbose headers   connection: 'keep-alive',
+140 verbose headers   'cf-ray': '8068c6875f921af8-AMS',
+140 verbose headers   'cf-cache-status': 'HIT',
+140 verbose headers   age: '222',
+140 verbose headers   'cache-control': 'public, max-age=300',
+140 verbose headers   etag: '"4ba161016ce13de8a39dcdf2180ac7cd"',
+140 verbose headers   'last-modified': 'Sun, 23 Jul 2023 04:49:39 GMT',
+140 verbose headers   vary: 'Accept-Encoding',
+140 verbose headers   server: 'cloudflare' }
+141 silly get cb [ 304,
+141 silly get   { date: 'Thu, 14 Sep 2023 12:53:54 GMT',
+141 silly get     connection: 'keep-alive',
+141 silly get     'cf-ray': '8068c6875f921af8-AMS',
+141 silly get     'cf-cache-status': 'HIT',
+141 silly get     age: '222',
+141 silly get     'cache-control': 'public, max-age=300',
+141 silly get     etag: '"4ba161016ce13de8a39dcdf2180ac7cd"',
+141 silly get     'last-modified': 'Sun, 23 Jul 2023 04:49:39 GMT',
+141 silly get     vary: 'Accept-Encoding',
+141 silly get     server: 'cloudflare' } ]
+142 verbose etag https://registry.npmjs.org/loose-envify from cache
+143 verbose get saving loose-envify to /home/knight/.npm/registry.npmjs.org/loose-envify/.cache.json
+144 silly resolveWithNewModule loose-envify@1.4.0 checking installable status
+145 silly cache add args [ 'loose-envify@^1.1.0', null ]
+146 verbose cache add spec loose-envify@^1.1.0
+147 silly cache add parsed spec Result {
+147 silly cache add   raw: 'loose-envify@^1.1.0',
+147 silly cache add   scope: null,
+147 silly cache add   name: 'loose-envify',
+147 silly cache add   rawSpec: '^1.1.0',
+147 silly cache add   spec: '>=1.1.0 <2.0.0',
+147 silly cache add   type: 'range' }
+148 silly addNamed loose-envify@>=1.1.0 <2.0.0
+149 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for loose-envify
+150 silly addNameRange { name: 'loose-envify', range: '>=1.1.0 <2.0.0', hasData: false }
+151 silly mapToRegistry name loose-envify
+152 silly mapToRegistry using default registry
+153 silly mapToRegistry registry https://registry.npmjs.org/
+154 silly mapToRegistry uri https://registry.npmjs.org/loose-envify
+155 verbose addNameRange registry:https://registry.npmjs.org/loose-envify not in flight; fetching
+156 verbose get https://registry.npmjs.org/loose-envify not expired, no request
+157 silly addNameRange number 2 { name: 'loose-envify', range: '>=1.1.0 <2.0.0', hasData: true }
+158 silly addNameRange versions [ 'loose-envify',
+158 silly addNameRange   [ '1.0.0', '1.1.0', '1.2.0', '1.3.0', '1.3.1', '1.4.0' ] ]
+159 silly addNamed loose-envify@1.4.0
+160 verbose addNamed "1.4.0" is a plain semver version for loose-envify
+161 silly cache afterAdd loose-envify@1.4.0
+162 verbose afterAdd /home/knight/.npm/loose-envify/1.4.0/package/package.json not in flight; writing
+163 verbose afterAdd /home/knight/.npm/loose-envify/1.4.0/package/package.json written
+164 silly fetchNamedPackageData js-tokens
+165 silly mapToRegistry name js-tokens
+166 silly mapToRegistry using default registry
+167 silly mapToRegistry registry https://registry.npmjs.org/
+168 silly mapToRegistry uri https://registry.npmjs.org/js-tokens
+169 verbose request uri https://registry.npmjs.org/js-tokens
+170 verbose request no auth needed
+171 info attempt registry request try #1 at 12:53:54 PM
+172 verbose etag W/"fd18f8bf99e220a146b0f725a183eb84"
+173 verbose lastModified Sat, 09 Sep 2023 13:03:25 GMT
+174 http request GET https://registry.npmjs.org/js-tokens
+175 http 304 https://registry.npmjs.org/js-tokens
+176 verbose headers { date: 'Thu, 14 Sep 2023 12:53:54 GMT',
+176 verbose headers   connection: 'keep-alive',
+176 verbose headers   'cf-ray': '8068c688cb471cca-AMS',
+176 verbose headers   'cf-cache-status': 'HIT',
+176 verbose headers   age: '34',
+176 verbose headers   'cache-control': 'public, max-age=300',
+176 verbose headers   etag: '"fd18f8bf99e220a146b0f725a183eb84"',
+176 verbose headers   'last-modified': 'Sat, 09 Sep 2023 13:03:25 GMT',
+176 verbose headers   vary: 'Accept-Encoding',
+176 verbose headers   server: 'cloudflare' }
+177 silly get cb [ 304,
+177 silly get   { date: 'Thu, 14 Sep 2023 12:53:54 GMT',
+177 silly get     connection: 'keep-alive',
+177 silly get     'cf-ray': '8068c688cb471cca-AMS',
+177 silly get     'cf-cache-status': 'HIT',
+177 silly get     age: '34',
+177 silly get     'cache-control': 'public, max-age=300',
+177 silly get     etag: '"fd18f8bf99e220a146b0f725a183eb84"',
+177 silly get     'last-modified': 'Sat, 09 Sep 2023 13:03:25 GMT',
+177 silly get     vary: 'Accept-Encoding',
+177 silly get     server: 'cloudflare' } ]
+178 verbose etag https://registry.npmjs.org/js-tokens from cache
+179 verbose get saving js-tokens to /home/knight/.npm/registry.npmjs.org/js-tokens/.cache.json
+180 silly resolveWithNewModule js-tokens@4.0.0 checking installable status
+181 silly cache add args [ 'js-tokens@^3.0.0 || ^4.0.0', null ]
+182 verbose cache add spec js-tokens@^3.0.0 || ^4.0.0
+183 silly cache add parsed spec Result {
+183 silly cache add   raw: 'js-tokens@^3.0.0 || ^4.0.0',
+183 silly cache add   scope: null,
+183 silly cache add   name: 'js-tokens',
+183 silly cache add   rawSpec: '^3.0.0 || ^4.0.0',
+183 silly cache add   spec: '>=3.0.0 <4.0.0||>=4.0.0 <5.0.0',
+183 silly cache add   type: 'range' }
+184 silly addNamed js-tokens@>=3.0.0 <4.0.0||>=4.0.0 <5.0.0
+185 verbose addNamed ">=3.0.0 <4.0.0||>=4.0.0 <5.0.0" is a valid semver range for js-tokens
+186 silly addNameRange { name: 'js-tokens',
+186 silly addNameRange   range: '>=3.0.0 <4.0.0||>=4.0.0 <5.0.0',
+186 silly addNameRange   hasData: false }
+187 silly mapToRegistry name js-tokens
+188 silly mapToRegistry using default registry
+189 silly mapToRegistry registry https://registry.npmjs.org/
+190 silly mapToRegistry uri https://registry.npmjs.org/js-tokens
+191 verbose addNameRange registry:https://registry.npmjs.org/js-tokens not in flight; fetching
+192 verbose get https://registry.npmjs.org/js-tokens not expired, no request
+193 silly addNameRange number 2 { name: 'js-tokens',
+193 silly addNameRange   range: '>=3.0.0 <4.0.0||>=4.0.0 <5.0.0',
+193 silly addNameRange   hasData: true }
+194 silly addNameRange versions [ 'js-tokens',
+194 silly addNameRange   [ '0.1.0',
+194 silly addNameRange     '0.2.0',
+194 silly addNameRange     '0.3.0',
+194 silly addNameRange     '0.3.1',
+194 silly addNameRange     '0.4.0',
+194 silly addNameRange     '0.4.1',
+194 silly addNameRange     '1.0.0',
+194 silly addNameRange     '1.0.1',
+194 silly addNameRange     '1.0.2',
+194 silly addNameRange     '1.0.3',
+194 silly addNameRange     '2.0.0',
+194 silly addNameRange     '3.0.0',
+194 silly addNameRange     '3.0.1',
+194 silly addNameRange     '3.0.2',
+194 silly addNameRange     '4.0.0',
+194 silly addNameRange     '5.0.0',
+194 silly addNameRange     '6.0.0',
+194 silly addNameRange     '7.0.0',
+194 silly addNameRange     '8.0.0',
+194 silly addNameRange     '8.0.1',
+194 silly addNameRange     '8.0.2' ] ]
+195 silly addNamed js-tokens@4.0.0
+196 verbose addNamed "4.0.0" is a plain semver version for js-tokens
+197 silly cache afterAdd js-tokens@4.0.0
+198 verbose afterAdd /home/knight/.npm/js-tokens/4.0.0/package/package.json not in flight; writing
+199 verbose afterAdd /home/knight/.npm/js-tokens/4.0.0/package/package.json written
+200 silly fetchNamedPackageData scheduler
+201 silly mapToRegistry name scheduler
+202 silly mapToRegistry using default registry
+203 silly mapToRegistry registry https://registry.npmjs.org/
+204 silly mapToRegistry uri https://registry.npmjs.org/scheduler
+205 verbose request uri https://registry.npmjs.org/scheduler
+206 verbose request no auth needed
+207 info attempt registry request try #1 at 12:53:55 PM
+208 verbose etag W/"42845b045013180138c8cafc583fcc14"
+209 verbose lastModified Wed, 13 Sep 2023 16:17:11 GMT
+210 http request GET https://registry.npmjs.org/scheduler
+211 http 304 https://registry.npmjs.org/scheduler
+212 verbose headers { date: 'Thu, 14 Sep 2023 12:53:55 GMT',
+212 verbose headers   connection: 'keep-alive',
+212 verbose headers   'cf-ray': '8068c68c4b800a60-AMS',
+212 verbose headers   'cf-cache-status': 'HIT',
+212 verbose headers   age: '269',
+212 verbose headers   'cache-control': 'public, max-age=300',
+212 verbose headers   etag: '"42845b045013180138c8cafc583fcc14"',
+212 verbose headers   'last-modified': 'Wed, 13 Sep 2023 16:17:11 GMT',
+212 verbose headers   vary: 'Accept-Encoding',
+212 verbose headers   server: 'cloudflare' }
+213 silly get cb [ 304,
+213 silly get   { date: 'Thu, 14 Sep 2023 12:53:55 GMT',
+213 silly get     connection: 'keep-alive',
+213 silly get     'cf-ray': '8068c68c4b800a60-AMS',
+213 silly get     'cf-cache-status': 'HIT',
+213 silly get     age: '269',
+213 silly get     'cache-control': 'public, max-age=300',
+213 silly get     etag: '"42845b045013180138c8cafc583fcc14"',
+213 silly get     'last-modified': 'Wed, 13 Sep 2023 16:17:11 GMT',
+213 silly get     vary: 'Accept-Encoding',
+213 silly get     server: 'cloudflare' } ]
+214 verbose etag https://registry.npmjs.org/scheduler from cache
+215 verbose get saving scheduler to /home/knight/.npm/registry.npmjs.org/scheduler/.cache.json
+216 silly resolveWithNewModule scheduler@0.23.0 checking installable status
+217 silly cache add args [ 'scheduler@^0.23.0', null ]
+218 verbose cache add spec scheduler@^0.23.0
+219 silly cache add parsed spec Result {
+219 silly cache add   raw: 'scheduler@^0.23.0',
+219 silly cache add   scope: null,
+219 silly cache add   name: 'scheduler',
+219 silly cache add   rawSpec: '^0.23.0',
+219 silly cache add   spec: '>=0.23.0 <0.24.0',
+219 silly cache add   type: 'range' }
+220 silly addNamed scheduler@>=0.23.0 <0.24.0
+221 verbose addNamed ">=0.23.0 <0.24.0" is a valid semver range for scheduler
+222 silly addNameRange { name: 'scheduler', range: '>=0.23.0 <0.24.0', hasData: false }
+223 silly mapToRegistry name scheduler
+224 silly mapToRegistry using default registry
+225 silly mapToRegistry registry https://registry.npmjs.org/
+226 silly mapToRegistry uri https://registry.npmjs.org/scheduler
+227 verbose addNameRange registry:https://registry.npmjs.org/scheduler not in flight; fetching
+228 verbose get https://registry.npmjs.org/scheduler not expired, no request
+229 silly addNameRange number 2 { name: 'scheduler', range: '>=0.23.0 <0.24.0', hasData: true }
+230 silly addNameRange versions [ 'scheduler',
+230 silly addNameRange   [ '0.1.0',
+230 silly addNameRange     '0.1.1',
+230 silly addNameRange     '0.5.0',
+230 silly addNameRange     '0.5.1',
+230 silly addNameRange     '0.5.2',
+230 silly addNameRange     '0.5.3',
+230 silly addNameRange     '0.6.0',
+230 silly addNameRange     '0.6.1',
+230 silly addNameRange     '0.7.1',
+230 silly addNameRange     '0.8.1',
+230 silly addNameRange     '0.9.0',
+230 silly addNameRange     '0.10.0-alpha.400d197',
+230 silly addNameRange     '0.10.0-alpha.f47a958',
+230 silly addNameRange     '0.10.0-alpha.8af6728',
+230 silly addNameRange     '0.10.0',
+230 silly addNameRange     '0.11.0-alpha.0',
+230 silly addNameRange     '0.11.0',
+230 silly addNameRange     '0.0.0-b98adb6-8e066f7-PARTIAL',
+230 silly addNameRange     '0.0.0-d5e1bf0-aee1b84',
+230 silly addNameRange     '0.0.0-a8988e4-1d1a717',
+230 silly addNameRange     '0.0.0-8b3c1e4-1d1a717',
+230 silly addNameRange     '0.0.0-0c756fb-697f004',
+230 silly addNameRange     '0.11.1',
+230 silly addNameRange     '0.0.0-0c756fb-f7f79fd',
+230 silly addNameRange     '0.11.2',
+230 silly addNameRange     '0.12.0-alpha.1',
+230 silly addNameRange     '0.12.0-alpha.2',
+230 silly addNameRange     '0.0.0-ed4c4a51c',
+230 silly addNameRange     '0.0.0-88ada9819',
+230 silly addNameRange     '0.0.0-c5b7d26c7',
+230 silly addNameRange     '0.12.0-alpha.3',
+230 silly addNameRange     '0.11.3',
+230 silly addNameRange     '0.0.0-7325ebe4d',
+230 silly addNameRange     '0.0.0-4a1072194',
+230 silly addNameRange     '0.12.0',
+230 silly addNameRange     '0.0.0-f22621f88',
+230 silly addNameRange     '0.13.0-alpha.0',
+230 silly addNameRange     '0.0.0-3e15b1c69',
+230 silly addNameRange     '0.13.0-alpha.1',
+230 silly addNameRange     '0.0.0-fec00a869',
+230 silly addNameRange     '0.0.0-267ed9814',
+230 silly addNameRange     '0.0.0-d1326f466',
+230 silly addNameRange     '0.13.0',
+230 silly addNameRange     '0.0.0-11565a207',
+230 silly addNameRange     '0.13.1',
+230 silly addNameRange     '0.0.0-0e4135e8c',
+230 silly addNameRange     '0.0.0-dfabb77a9',
+230 silly addNameRange     '0.13.2',
+230 silly addNameRange     '0.0.0-b668168d4',
+230 silly addNameRange     '0.0.0-29b7b775f',
+230 silly addNameRange     '0.13.3',
+230 silly addNameRange     '0.0.0-741aa17a3',
+230 silly addNameRange     '0.13.4',
+230 silly addNameRange     '0.0.0-679402a66',
+230 silly addNameRange     '0.0.0-f9e41e3a5',
+230 silly addNameRange     '0.13.5',
+230 silly addNameRange     '0.0.0-297165f1e',
+230 silly addNameRange     '0.13.6',
+230 silly addNameRange     '0.0.0-c35e37aab',
+230 silly addNameRange     '0.14.0-alpha.0',
+230 silly addNameRange     '0.0.0-a9eff329c',
+230 silly addNameRange     '0.14.0',
+230 silly addNameRange     '0.0.0-9ebe1768a',
+230 silly addNameRange     '0.0.0-4221565e1',
+230 silly addNameRange     '0.0.0-fb28e9048',
+230 silly addNameRange     '0.0.0-6da04b5d8',
+230 silly addNameRange     '0.0.0-50b50c26f',
+230 silly addNameRange     '0.0.0-fa1e8df11',
+230 silly addNameRange     '0.0.0-9f395904c',
+230 silly addNameRange     '0.0.0-424099da6',
+230 silly addNameRange     '0.0.0-b4178af81',
+230 silly addNameRange     '0.0.0-bbd21066e',
+230 silly addNameRange     '0.0.0-db3ae32b8',
+230 silly addNameRange     '0.0.0-375616788',
+230 silly addNameRange     '0.0.0-a1dbb852c',
+230 silly addNameRange     '0.15.0-rc.0',
+230 silly addNameRange     '0.15.0',
+230 silly addNameRange     '0.0.0-8d5403877',
+230 silly addNameRange     '0.0.0-45b6443c9',
+230 silly addNameRange     '0.0.0-b4b8a349a',
+230 silly addNameRange     '0.0.0-3694a3b5e',
+230 silly addNameRange     '0.16.0',
+230 silly addNameRange     '0.0.0-d346d9208',
+230 silly addNameRange     '0.16.1',
+230 silly addNameRange     '0.0.0-4ab6305f6',
+230 silly addNameRange     '0.16.2',
+230 silly addNameRange     '0.0.0-experimental-d364d8555',
+230 silly addNameRange     '0.0.0-experimental-d7feeb25a',
+230 silly addNameRange     '0.0.0-7082d5a2d',
+230 silly addNameRange     '0.0.0-experimental-7082d5a2d',
+230 silly addNameRange     '0.0.0-1022ee0ec',
+230 silly addNameRange     '0.0.0-experimental-1022ee0ec',
+230 silly addNameRange     '0.0.0-5faf377df',
+230 silly addNameRange     '0.0.0-experimental-5faf377df',
+230 silly addNameRange     '0.17.0',
+230 silly addNameRange     '0.0.0-experimental-f6b8d31a7',
+230 silly addNameRange     '0.0.0-f6b8d31a7',
+230 silly addNameRange     '0.0.0-experimental-38dd17ab9',
+230 silly addNameRange     '0.0.0-38dd17ab9',
+230 silly addNameRange     '0.0.0-b53ea6ca0',
+230 silly addNameRange     ... 1216 more items ] ]
+231 silly addNamed scheduler@0.23.0
+232 verbose addNamed "0.23.0" is a plain semver version for scheduler
+233 silly cache afterAdd scheduler@0.23.0
+234 verbose afterAdd /home/knight/.npm/scheduler/0.23.0/package/package.json not in flight; writing
+235 verbose afterAdd /home/knight/.npm/scheduler/0.23.0/package/package.json written
+236 silly fetchNamedPackageData @types/react
+237 silly mapToRegistry name @types/react
+238 silly mapToRegistry scope (from package name) @types
+239 verbose mapToRegistry no registry URL found in name for scope @types
+240 silly mapToRegistry using default registry
+241 silly mapToRegistry registry https://registry.npmjs.org/
+242 silly mapToRegistry uri https://registry.npmjs.org/@types%2freact
+243 silly fetchNamedPackageData @types/react-dom
+244 silly mapToRegistry name @types/react-dom
+245 silly mapToRegistry scope (from package name) @types
+246 verbose mapToRegistry no registry URL found in name for scope @types
+247 silly mapToRegistry using default registry
+248 silly mapToRegistry registry https://registry.npmjs.org/
+249 silly mapToRegistry uri https://registry.npmjs.org/@types%2freact-dom
+250 silly fetchNamedPackageData @vitejs/plugin-react
+251 silly mapToRegistry name @vitejs/plugin-react
+252 silly mapToRegistry scope (from package name) @vitejs
+253 verbose mapToRegistry no registry URL found in name for scope @vitejs
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry https://registry.npmjs.org/
+256 silly mapToRegistry uri https://registry.npmjs.org/@vitejs%2fplugin-react
+257 silly fetchNamedPackageData autoprefixer
+258 silly mapToRegistry name autoprefixer
+259 silly mapToRegistry using default registry
+260 silly mapToRegistry registry https://registry.npmjs.org/
+261 silly mapToRegistry uri https://registry.npmjs.org/autoprefixer
+262 silly fetchNamedPackageData eslint
+263 silly mapToRegistry name eslint
+264 silly mapToRegistry using default registry
+265 silly mapToRegistry registry https://registry.npmjs.org/
+266 silly mapToRegistry uri https://registry.npmjs.org/eslint
+267 silly fetchNamedPackageData eslint-plugin-react
+268 silly mapToRegistry name eslint-plugin-react
+269 silly mapToRegistry using default registry
+270 silly mapToRegistry registry https://registry.npmjs.org/
+271 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-react
+272 silly fetchNamedPackageData eslint-plugin-react-hooks
+273 silly mapToRegistry name eslint-plugin-react-hooks
+274 silly mapToRegistry using default registry
+275 silly mapToRegistry registry https://registry.npmjs.org/
+276 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-react-hooks
+277 silly fetchNamedPackageData eslint-plugin-react-refresh
+278 silly mapToRegistry name eslint-plugin-react-refresh
+279 silly mapToRegistry using default registry
+280 silly mapToRegistry registry https://registry.npmjs.org/
+281 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-react-refresh
+282 silly fetchNamedPackageData postcss
+283 silly mapToRegistry name postcss
+284 silly mapToRegistry using default registry
+285 silly mapToRegistry registry https://registry.npmjs.org/
+286 silly mapToRegistry uri https://registry.npmjs.org/postcss
+287 silly fetchNamedPackageData tailwindcss
+288 silly mapToRegistry name tailwindcss
+289 silly mapToRegistry using default registry
+290 silly mapToRegistry registry https://registry.npmjs.org/
+291 silly mapToRegistry uri https://registry.npmjs.org/tailwindcss
+292 silly fetchNamedPackageData vite
+293 silly mapToRegistry name vite
+294 silly mapToRegistry using default registry
+295 silly mapToRegistry registry https://registry.npmjs.org/
+296 silly mapToRegistry uri https://registry.npmjs.org/vite
+297 verbose request uri https://registry.npmjs.org/@types%2freact
+298 verbose request no auth needed
+299 info attempt registry request try #1 at 12:53:56 PM
+300 verbose etag W/"658865758b586fbad855ae79a8b997bb"
+301 verbose lastModified Wed, 23 Aug 2023 18:01:28 GMT
+302 http request GET https://registry.npmjs.org/@types%2freact
+303 verbose request uri https://registry.npmjs.org/@types%2freact-dom
+304 verbose request no auth needed
+305 info attempt registry request try #1 at 12:53:56 PM
+306 verbose etag W/"7ba73a52fde8c9fa21765d76ce7ccc26"
+307 verbose lastModified Wed, 23 Aug 2023 18:03:12 GMT
+308 http request GET https://registry.npmjs.org/@types%2freact-dom
+309 verbose request uri https://registry.npmjs.org/@vitejs%2fplugin-react
+310 verbose request no auth needed
+311 info attempt registry request try #1 at 12:53:56 PM
+312 verbose etag W/"769f5f876dbfccd8d6ebc44e426aaa03"
+313 verbose lastModified Mon, 31 Jul 2023 16:32:46 GMT
+314 http request GET https://registry.npmjs.org/@vitejs%2fplugin-react
+315 verbose request uri https://registry.npmjs.org/autoprefixer
+316 verbose request no auth needed
+317 info attempt registry request try #1 at 12:53:56 PM
+318 verbose etag W/"687a4b2ad9472970aa3e53df2b0b72e4"
+319 verbose lastModified Sun, 20 Aug 2023 09:47:09 GMT
+320 http request GET https://registry.npmjs.org/autoprefixer
+321 verbose request uri https://registry.npmjs.org/eslint
+322 verbose request no auth needed
+323 info attempt registry request try #1 at 12:53:56 PM
+324 verbose etag W/"98b526b9de0b34ff7ced3686883803c0"
+325 verbose lastModified Fri, 08 Sep 2023 20:23:10 GMT
+326 http request GET https://registry.npmjs.org/eslint
+327 verbose request uri https://registry.npmjs.org/eslint-plugin-react-refresh
+328 verbose request no auth needed
+329 info attempt registry request try #1 at 12:53:56 PM
+330 verbose etag W/"2033c0ed7a147571084eb87a5a0e80cd"
+331 verbose lastModified Sun, 09 Jul 2023 16:20:32 GMT
+332 http request GET https://registry.npmjs.org/eslint-plugin-react-refresh
+333 verbose request uri https://registry.npmjs.org/postcss
+334 verbose request no auth needed
+335 info attempt registry request try #1 at 12:53:56 PM
+336 verbose etag W/"790b506ee1b727a5f61521842258cd85"
+337 verbose lastModified Tue, 29 Aug 2023 17:47:32 GMT
+338 http request GET https://registry.npmjs.org/postcss
+339 verbose request uri https://registry.npmjs.org/eslint-plugin-react
+340 verbose request no auth needed
+341 info attempt registry request try #1 at 12:53:56 PM
+342 verbose etag W/"0c7438a339c0a4bed18b2d74b74527dd"
+343 verbose lastModified Wed, 16 Aug 2023 04:22:45 GMT
+344 http request GET https://registry.npmjs.org/eslint-plugin-react
+345 verbose request uri https://registry.npmjs.org/eslint-plugin-react-hooks
+346 verbose request no auth needed
+347 info attempt registry request try #1 at 12:53:56 PM
+348 verbose etag W/"876901fa7dbb9892c7e4e22a28dc3dcf"
+349 verbose lastModified Wed, 13 Sep 2023 16:16:02 GMT
+350 http request GET https://registry.npmjs.org/eslint-plugin-react-hooks
+351 verbose request uri https://registry.npmjs.org/tailwindcss
+352 verbose request no auth needed
+353 info attempt registry request try #1 at 12:53:57 PM
+354 verbose etag W/"53227b7df09fd74e4efccb8d05de2587"
+355 verbose lastModified Thu, 14 Sep 2023 08:10:11 GMT
+356 http request GET https://registry.npmjs.org/tailwindcss
+357 verbose request uri https://registry.npmjs.org/vite
+358 verbose request no auth needed
+359 info attempt registry request try #1 at 12:53:59 PM
+360 verbose etag W/"b65ee27bcf8851874583e9df35e53109"
+361 verbose lastModified Fri, 08 Sep 2023 15:10:18 GMT
+362 http request GET https://registry.npmjs.org/vite
+363 http 304 https://registry.npmjs.org/@types%2freact
+364 verbose headers { date: 'Thu, 14 Sep 2023 12:53:56 GMT',
+364 verbose headers   connection: 'keep-alive',
+364 verbose headers   'cf-ray': '8068c69529771af8-AMS',
+364 verbose headers   'cf-cache-status': 'HIT',
+364 verbose headers   age: '110',
+364 verbose headers   'cache-control': 'public, max-age=300',
+364 verbose headers   etag: '"658865758b586fbad855ae79a8b997bb"',
+364 verbose headers   'last-modified': 'Wed, 23 Aug 2023 18:01:28 GMT',
+364 verbose headers   vary: 'Accept-Encoding',
+364 verbose headers   server: 'cloudflare' }
+365 silly get cb [ 304,
+365 silly get   { date: 'Thu, 14 Sep 2023 12:53:56 GMT',
+365 silly get     connection: 'keep-alive',
+365 silly get     'cf-ray': '8068c69529771af8-AMS',
+365 silly get     'cf-cache-status': 'HIT',
+365 silly get     age: '110',
+365 silly get     'cache-control': 'public, max-age=300',
+365 silly get     etag: '"658865758b586fbad855ae79a8b997bb"',
+365 silly get     'last-modified': 'Wed, 23 Aug 2023 18:01:28 GMT',
+365 silly get     vary: 'Accept-Encoding',
+365 silly get     server: 'cloudflare' } ]
+366 verbose etag https://registry.npmjs.org/@types%2freact from cache
+367 verbose get saving @types/react to /home/knight/.npm/registry.npmjs.org/_40types_252freact/.cache.json
+368 http 304 https://registry.npmjs.org/@types%2freact-dom
+369 verbose headers { date: 'Thu, 14 Sep 2023 12:53:56 GMT',
+369 verbose headers   connection: 'keep-alive',
+369 verbose headers   'cf-ray': '8068c695480f1cca-AMS',
+369 verbose headers   'cf-cache-status': 'HIT',
+369 verbose headers   age: '178',
+369 verbose headers   'cache-control': 'public, max-age=300',
+369 verbose headers   etag: '"7ba73a52fde8c9fa21765d76ce7ccc26"',
+369 verbose headers   'last-modified': 'Wed, 23 Aug 2023 18:03:12 GMT',
+369 verbose headers   vary: 'Accept-Encoding',
+369 verbose headers   server: 'cloudflare' }
+370 silly get cb [ 304,
+370 silly get   { date: 'Thu, 14 Sep 2023 12:53:56 GMT',
+370 silly get     connection: 'keep-alive',
+370 silly get     'cf-ray': '8068c695480f1cca-AMS',
+370 silly get     'cf-cache-status': 'HIT',
+370 silly get     age: '178',
+370 silly get     'cache-control': 'public, max-age=300',
+370 silly get     etag: '"7ba73a52fde8c9fa21765d76ce7ccc26"',
+370 silly get     'last-modified': 'Wed, 23 Aug 2023 18:03:12 GMT',
+370 silly get     vary: 'Accept-Encoding',
+370 silly get     server: 'cloudflare' } ]
+371 verbose etag https://registry.npmjs.org/@types%2freact-dom from cache
+372 verbose get saving @types/react-dom to /home/knight/.npm/registry.npmjs.org/_40types_252freact-dom/.cache.json
+373 http 304 https://registry.npmjs.org/@vitejs%2fplugin-react
+374 verbose headers { date: 'Thu, 14 Sep 2023 12:53:56 GMT',
+374 verbose headers   connection: 'keep-alive',
+374 verbose headers   'cf-ray': '8068c6955b790a60-AMS',
+374 verbose headers   'cf-cache-status': 'HIT',
+374 verbose headers   age: '219',
+374 verbose headers   'cache-control': 'public, max-age=300',
+374 verbose headers   etag: '"769f5f876dbfccd8d6ebc44e426aaa03"',
+374 verbose headers   'last-modified': 'Mon, 31 Jul 2023 16:32:46 GMT',
+374 verbose headers   vary: 'Accept-Encoding',
+374 verbose headers   server: 'cloudflare' }
+375 silly get cb [ 304,
+375 silly get   { date: 'Thu, 14 Sep 2023 12:53:56 GMT',
+375 silly get     connection: 'keep-alive',
+375 silly get     'cf-ray': '8068c6955b790a60-AMS',
+375 silly get     'cf-cache-status': 'HIT',
+375 silly get     age: '219',
+375 silly get     'cache-control': 'public, max-age=300',
+375 silly get     etag: '"769f5f876dbfccd8d6ebc44e426aaa03"',
+375 silly get     'last-modified': 'Mon, 31 Jul 2023 16:32:46 GMT',
+375 silly get     vary: 'Accept-Encoding',
+375 silly get     server: 'cloudflare' } ]
+376 verbose etag https://registry.npmjs.org/@vitejs%2fplugin-react from cache
+377 verbose get saving @vitejs/plugin-react to /home/knight/.npm/registry.npmjs.org/_40vitejs_252fplugin-react/.cache.json
+378 silly resolveWithNewModule @types/react-dom@18.2.7 checking installable status
+379 silly cache add args [ '@types/react-dom@^18.2.7', null ]
+380 verbose cache add spec @types/react-dom@^18.2.7
+381 silly cache add parsed spec Result {
+381 silly cache add   raw: '@types/react-dom@^18.2.7',
+381 silly cache add   scope: '@types',
+381 silly cache add   name: '@types/react-dom',
+381 silly cache add   rawSpec: '^18.2.7',
+381 silly cache add   spec: '>=18.2.7 <19.0.0',
+381 silly cache add   type: 'range' }
+382 silly addNamed @types/react-dom@>=18.2.7 <19.0.0
+383 verbose addNamed ">=18.2.7 <19.0.0" is a valid semver range for @types/react-dom
+384 silly addNameRange { name: '@types/react-dom',
+384 silly addNameRange   range: '>=18.2.7 <19.0.0',
+384 silly addNameRange   hasData: false }
+385 silly mapToRegistry name @types/react-dom
+386 silly mapToRegistry scope (from package name) @types
+387 verbose mapToRegistry no registry URL found in name for scope @types
+388 silly mapToRegistry using default registry
+389 silly mapToRegistry registry https://registry.npmjs.org/
+390 silly mapToRegistry uri https://registry.npmjs.org/@types%2freact-dom
+391 verbose addNameRange registry:https://registry.npmjs.org/@types%2freact-dom not in flight; fetching
+392 silly resolveWithNewModule @vitejs/plugin-react@4.0.4 checking installable status
+393 silly cache add args [ '@vitejs/plugin-react@^4.0.3', null ]
+394 verbose cache add spec @vitejs/plugin-react@^4.0.3
+395 silly cache add parsed spec Result {
+395 silly cache add   raw: '@vitejs/plugin-react@^4.0.3',
+395 silly cache add   scope: '@vitejs',
+395 silly cache add   name: '@vitejs/plugin-react',
+395 silly cache add   rawSpec: '^4.0.3',
+395 silly cache add   spec: '>=4.0.3 <5.0.0',
+395 silly cache add   type: 'range' }
+396 silly addNamed @vitejs/plugin-react@>=4.0.3 <5.0.0
+397 verbose addNamed ">=4.0.3 <5.0.0" is a valid semver range for @vitejs/plugin-react
+398 silly addNameRange { name: '@vitejs/plugin-react',
+398 silly addNameRange   range: '>=4.0.3 <5.0.0',
+398 silly addNameRange   hasData: false }
+399 silly mapToRegistry name @vitejs/plugin-react
+400 silly mapToRegistry scope (from package name) @vitejs
+401 verbose mapToRegistry no registry URL found in name for scope @vitejs
+402 silly mapToRegistry using default registry
+403 silly mapToRegistry registry https://registry.npmjs.org/
+404 silly mapToRegistry uri https://registry.npmjs.org/@vitejs%2fplugin-react
+405 verbose addNameRange registry:https://registry.npmjs.org/@vitejs%2fplugin-react not in flight; fetching
+406 silly resolveWithNewModule @types/react@18.2.21 checking installable status
+407 silly cache add args [ '@types/react@^18.2.15', null ]
+408 verbose cache add spec @types/react@^18.2.15
+409 silly cache add parsed spec Result {
+409 silly cache add   raw: '@types/react@^18.2.15',
+409 silly cache add   scope: '@types',
+409 silly cache add   name: '@types/react',
+409 silly cache add   rawSpec: '^18.2.15',
+409 silly cache add   spec: '>=18.2.15 <19.0.0',
+409 silly cache add   type: 'range' }
+410 silly addNamed @types/react@>=18.2.15 <19.0.0
+411 verbose addNamed ">=18.2.15 <19.0.0" is a valid semver range for @types/react
+412 silly addNameRange { name: '@types/react',
+412 silly addNameRange   range: '>=18.2.15 <19.0.0',
+412 silly addNameRange   hasData: false }
+413 silly mapToRegistry name @types/react
+414 silly mapToRegistry scope (from package name) @types
+415 verbose mapToRegistry no registry URL found in name for scope @types
+416 silly mapToRegistry using default registry
+417 silly mapToRegistry registry https://registry.npmjs.org/
+418 silly mapToRegistry uri https://registry.npmjs.org/@types%2freact
+419 verbose addNameRange registry:https://registry.npmjs.org/@types%2freact not in flight; fetching
+420 http 304 https://registry.npmjs.org/tailwindcss
+421 verbose headers { date: 'Thu, 14 Sep 2023 12:53:59 GMT',
+421 verbose headers   connection: 'keep-alive',
+421 verbose headers   'cf-ray': '8068c6a4ce2b1af8-AMS',
+421 verbose headers   'cf-cache-status': 'HIT',
+421 verbose headers   age: '118',
+421 verbose headers   'cache-control': 'public, max-age=300',
+421 verbose headers   etag: '"53227b7df09fd74e4efccb8d05de2587"',
+421 verbose headers   'last-modified': 'Thu, 14 Sep 2023 08:10:11 GMT',
+421 verbose headers   vary: 'Accept-Encoding',
+421 verbose headers   server: 'cloudflare' }
+422 silly get cb [ 304,
+422 silly get   { date: 'Thu, 14 Sep 2023 12:53:59 GMT',
+422 silly get     connection: 'keep-alive',
+422 silly get     'cf-ray': '8068c6a4ce2b1af8-AMS',
+422 silly get     'cf-cache-status': 'HIT',
+422 silly get     age: '118',
+422 silly get     'cache-control': 'public, max-age=300',
+422 silly get     etag: '"53227b7df09fd74e4efccb8d05de2587"',
+422 silly get     'last-modified': 'Thu, 14 Sep 2023 08:10:11 GMT',
+422 silly get     vary: 'Accept-Encoding',
+422 silly get     server: 'cloudflare' } ]
+423 verbose etag https://registry.npmjs.org/tailwindcss from cache
+424 verbose get saving tailwindcss to /home/knight/.npm/registry.npmjs.org/tailwindcss/.cache.json
+425 verbose get https://registry.npmjs.org/@types%2freact-dom not expired, no request
+426 silly addNameRange number 2 { name: '@types/react-dom',
+426 silly addNameRange   range: '>=18.2.7 <19.0.0',
+426 silly addNameRange   hasData: true }
+427 silly addNameRange versions [ '@types/react-dom',
+427 silly addNameRange   [ '0.14.1-alpha',
+427 silly addNameRange     '0.14.2-alpha',
+427 silly addNameRange     '0.14.7-alpha',
+427 silly addNameRange     '0.14.8-alpha',
+427 silly addNameRange     '0.14.9-alpha',
+427 silly addNameRange     '0.14.10-alpha',
+427 silly addNameRange     '0.14.11-alpha',
+427 silly addNameRange     '0.14.12-alpha',
+427 silly addNameRange     '0.14.13',
+427 silly addNameRange     '0.14.14',
+427 silly addNameRange     '0.14.15',
+427 silly addNameRange     '0.14.16',
+427 silly addNameRange     '0.14.17',
+427 silly addNameRange     '0.14.18',
+427 silly addNameRange     '0.14.19',
+427 silly addNameRange     '0.14.20',
+427 silly addNameRange     '0.14.21',
+427 silly addNameRange     '0.14.22',
+427 silly addNameRange     '0.14.23',
+427 silly addNameRange     '15.5.0',
+427 silly addNameRange     '15.5.1',
+427 silly addNameRange     '15.5.2',
+427 silly addNameRange     '15.5.3',
+427 silly addNameRange     '15.5.4',
+427 silly addNameRange     '15.5.5',
+427 silly addNameRange     '15.5.6',
+427 silly addNameRange     '16.0.0',
+427 silly addNameRange     '16.0.1',
+427 silly addNameRange     '16.0.2',
+427 silly addNameRange     '16.0.3',
+427 silly addNameRange     '16.0.4',
+427 silly addNameRange     '15.5.7',
+427 silly addNameRange     '16.0.5',
+427 silly addNameRange     '16.0.6',
+427 silly addNameRange     '15.5.8',
+427 silly addNameRange     '16.0.7',
+427 silly addNameRange     '16.0.8',
+427 silly addNameRange     '16.0.9',
+427 silly addNameRange     '16.0.10',
+427 silly addNameRange     '16.0.11',
+427 silly addNameRange     '16.8.0',
+427 silly addNameRange     '16.8.1',
+427 silly addNameRange     '15.5.9',
+427 silly addNameRange     '16.8.2',
+427 silly addNameRange     '15.5.10',
+427 silly addNameRange     '16.8.3',
+427 silly addNameRange     '16.8.4',
+427 silly addNameRange     '16.8.5',
+427 silly addNameRange     '16.9.0',
+427 silly addNameRange     '16.9.1',
+427 silly addNameRange     '16.9.2',
+427 silly addNameRange     '15.5.11',
+427 silly addNameRange     '16.9.3',
+427 silly addNameRange     '16.9.4',
+427 silly addNameRange     '16.9.5',
+427 silly addNameRange     '16.9.6',
+427 silly addNameRange     '16.9.7',
+427 silly addNameRange     '16.9.8',
+427 silly addNameRange     '15.5.12',
+427 silly addNameRange     '16.9.9',
+427 silly addNameRange     '17.0.0',
+427 silly addNameRange     '16.9.10',
+427 silly addNameRange     '17.0.1',
+427 silly addNameRange     '16.9.11',
+427 silly addNameRange     '17.0.2',
+427 silly addNameRange     '17.0.3',
+427 silly addNameRange     '16.9.12',
+427 silly addNameRange     '17.0.4',
+427 silly addNameRange     '17.0.5',
+427 silly addNameRange     '16.9.13',
+427 silly addNameRange     '17.0.6',
+427 silly addNameRange     '17.0.7',
+427 silly addNameRange     '17.0.8',
+427 silly addNameRange     '17.0.9',
+427 silly addNameRange     '16.9.14',
+427 silly addNameRange     '15.5.13',
+427 silly addNameRange     '17.0.10',
+427 silly addNameRange     '17.0.11',
+427 silly addNameRange     '17.0.12',
+427 silly addNameRange     '17.0.13',
+427 silly addNameRange     '17.0.14',
+427 silly addNameRange     '18.0.0',
+427 silly addNameRange     '17.0.15',
+427 silly addNameRange     '18.0.1',
+427 silly addNameRange     '18.0.2',
+427 silly addNameRange     '17.0.16',
+427 silly addNameRange     '16.9.15',
+427 silly addNameRange     '15.5.14',
+427 silly addNameRange     '18.0.3',
+427 silly addNameRange     '18.0.4',
+427 silly addNameRange     '17.0.17',
+427 silly addNameRange     '16.9.16',
+427 silly addNameRange     '18.0.5',
+427 silly addNameRange     '18.0.6',
+427 silly addNameRange     '18.0.7',
+427 silly addNameRange     '18.0.8',
+427 silly addNameRange     '17.0.18',
+427 silly addNameRange     '16.9.17',
+427 silly addNameRange     '15.5.15',
+427 silly addNameRange     '18.0.9',
+427 silly addNameRange     ... 16 more items ] ]
+428 silly addNamed @types/react-dom@18.2.7
+429 verbose addNamed "18.2.7" is a plain semver version for @types/react-dom
+430 http 304 https://registry.npmjs.org/vite
+431 verbose headers { date: 'Thu, 14 Sep 2023 12:53:59 GMT',
+431 verbose headers   connection: 'keep-alive',
+431 verbose headers   'cf-ray': '8068c6a4cb3d1cca-AMS',
+431 verbose headers   'cf-cache-status': 'HIT',
+431 verbose headers   age: '239',
+431 verbose headers   'cache-control': 'public, max-age=300',
+431 verbose headers   etag: '"b65ee27bcf8851874583e9df35e53109"',
+431 verbose headers   'last-modified': 'Fri, 08 Sep 2023 15:10:18 GMT',
+431 verbose headers   vary: 'Accept-Encoding',
+431 verbose headers   server: 'cloudflare' }
+432 silly get cb [ 304,
+432 silly get   { date: 'Thu, 14 Sep 2023 12:53:59 GMT',
+432 silly get     connection: 'keep-alive',
+432 silly get     'cf-ray': '8068c6a4cb3d1cca-AMS',
+432 silly get     'cf-cache-status': 'HIT',
+432 silly get     age: '239',
+432 silly get     'cache-control': 'public, max-age=300',
+432 silly get     etag: '"b65ee27bcf8851874583e9df35e53109"',
+432 silly get     'last-modified': 'Fri, 08 Sep 2023 15:10:18 GMT',
+432 silly get     vary: 'Accept-Encoding',
+432 silly get     server: 'cloudflare' } ]
+433 verbose etag https://registry.npmjs.org/vite from cache
+434 verbose get saving vite to /home/knight/.npm/registry.npmjs.org/vite/.cache.json
+435 verbose get https://registry.npmjs.org/@vitejs%2fplugin-react not expired, no request
+436 silly addNameRange number 2 { name: '@vitejs/plugin-react',
+436 silly addNameRange   range: '>=4.0.3 <5.0.0',
+436 silly addNameRange   hasData: true }
+437 silly addNameRange versions [ '@vitejs/plugin-react',
+437 silly addNameRange   [ '1.0.0-beta.0',
+437 silly addNameRange     '1.0.0',
+437 silly addNameRange     '1.0.1',
+437 silly addNameRange     '1.0.2',
+437 silly addNameRange     '1.0.3',
+437 silly addNameRange     '1.0.4',
+437 silly addNameRange     '1.0.5',
+437 silly addNameRange     '1.0.6',
+437 silly addNameRange     '1.0.7',
+437 silly addNameRange     '1.1.0-beta.0',
+437 silly addNameRange     '1.0.8',
+437 silly addNameRange     '1.0.9',
+437 silly addNameRange     '1.1.0-beta.1',
+437 silly addNameRange     '1.1.0',
+437 silly addNameRange     '1.1.1',
+437 silly addNameRange     '1.1.2',
+437 silly addNameRange     '1.1.3',
+437 silly addNameRange     '1.1.4',
+437 silly addNameRange     '1.2.0',
+437 silly addNameRange     '1.3.0',
+437 silly addNameRange     '1.3.1',
+437 silly addNameRange     '1.3.2',
+437 silly addNameRange     '2.0.0-alpha.0',
+437 silly addNameRange     '2.0.0-alpha.1',
+437 silly addNameRange     '2.0.0-alpha.2',
+437 silly addNameRange     '2.0.0-alpha.3',
+437 silly addNameRange     '2.0.0-beta.0',
+437 silly addNameRange     '2.0.0-beta.1',
+437 silly addNameRange     '2.0.0',
+437 silly addNameRange     '2.0.1',
+437 silly addNameRange     '2.1.0-beta.0',
+437 silly addNameRange     '2.1.0',
+437 silly addNameRange     '2.2.0-beta.0',
+437 silly addNameRange     '2.2.0',
+437 silly addNameRange     '3.0.0-alpha.0',
+437 silly addNameRange     '3.0.0-alpha.1',
+437 silly addNameRange     '3.0.0-alpha.2',
+437 silly addNameRange     '3.0.0-beta.0',
+437 silly addNameRange     '3.0.0',
+437 silly addNameRange     '3.0.1',
+437 silly addNameRange     '3.1.0-beta.0',
+437 silly addNameRange     '3.1.0',
+437 silly addNameRange     '4.0.0-beta.0',
+437 silly addNameRange     '4.0.0-beta.1',
+437 silly addNameRange     '4.0.0',
+437 silly addNameRange     '4.0.1',
+437 silly addNameRange     '4.0.2',
+437 silly addNameRange     '4.0.3',
+437 silly addNameRange     '4.0.4' ] ]
+438 silly addNamed @vitejs/plugin-react@4.0.4
+439 verbose addNamed "4.0.4" is a plain semver version for @vitejs/plugin-react
+440 http 304 https://registry.npmjs.org/eslint-plugin-react-refresh
+441 verbose headers { date: 'Thu, 14 Sep 2023 12:53:59 GMT',
+441 verbose headers   connection: 'keep-alive',
+441 verbose headers   'cf-ray': '8068c6a61fb51c8e-AMS',
+441 verbose headers   'cf-cache-status': 'HIT',
+441 verbose headers   age: '177',
+441 verbose headers   'cache-control': 'public, max-age=300',
+441 verbose headers   etag: '"2033c0ed7a147571084eb87a5a0e80cd"',
+441 verbose headers   'last-modified': 'Sun, 09 Jul 2023 16:20:32 GMT',
+441 verbose headers   vary: 'Accept-Encoding',
+441 verbose headers   server: 'cloudflare' }
+442 silly get cb [ 304,
+442 silly get   { date: 'Thu, 14 Sep 2023 12:53:59 GMT',
+442 silly get     connection: 'keep-alive',
+442 silly get     'cf-ray': '8068c6a61fb51c8e-AMS',
+442 silly get     'cf-cache-status': 'HIT',
+442 silly get     age: '177',
+442 silly get     'cache-control': 'public, max-age=300',
+442 silly get     etag: '"2033c0ed7a147571084eb87a5a0e80cd"',
+442 silly get     'last-modified': 'Sun, 09 Jul 2023 16:20:32 GMT',
+442 silly get     vary: 'Accept-Encoding',
+442 silly get     server: 'cloudflare' } ]
+443 verbose etag https://registry.npmjs.org/eslint-plugin-react-refresh from cache
+444 verbose get saving eslint-plugin-react-refresh to /home/knight/.npm/registry.npmjs.org/eslint-plugin-react-refresh/.cache.json
+445 http 304 https://registry.npmjs.org/eslint
+446 verbose headers { date: 'Thu, 14 Sep 2023 12:53:59 GMT',
+446 verbose headers   connection: 'keep-alive',
+446 verbose headers   'cf-ray': '8068c6a62a940a4b-AMS',
+446 verbose headers   'cf-cache-status': 'HIT',
+446 verbose headers   age: '195',
+446 verbose headers   'cache-control': 'public, max-age=300',
+446 verbose headers   etag: '"98b526b9de0b34ff7ced3686883803c0"',
+446 verbose headers   'last-modified': 'Fri, 08 Sep 2023 20:23:10 GMT',
+446 verbose headers   vary: 'Accept-Encoding',
+446 verbose headers   server: 'cloudflare' }
+447 silly get cb [ 304,
+447 silly get   { date: 'Thu, 14 Sep 2023 12:53:59 GMT',
+447 silly get     connection: 'keep-alive',
+447 silly get     'cf-ray': '8068c6a62a940a4b-AMS',
+447 silly get     'cf-cache-status': 'HIT',
+447 silly get     age: '195',
+447 silly get     'cache-control': 'public, max-age=300',
+447 silly get     etag: '"98b526b9de0b34ff7ced3686883803c0"',
+447 silly get     'last-modified': 'Fri, 08 Sep 2023 20:23:10 GMT',
+447 silly get     vary: 'Accept-Encoding',
+447 silly get     server: 'cloudflare' } ]
+448 verbose etag https://registry.npmjs.org/eslint from cache
+449 verbose get saving eslint to /home/knight/.npm/registry.npmjs.org/eslint/.cache.json
+450 http 304 https://registry.npmjs.org/autoprefixer
+451 verbose headers { date: 'Thu, 14 Sep 2023 12:53:59 GMT',
+451 verbose headers   connection: 'keep-alive',
+451 verbose headers   'cf-ray': '8068c6a639450df5-AMS',
+451 verbose headers   'cf-cache-status': 'HIT',
+451 verbose headers   age: '181',
+451 verbose headers   'cache-control': 'public, max-age=300',
+451 verbose headers   etag: '"687a4b2ad9472970aa3e53df2b0b72e4"',
+451 verbose headers   'last-modified': 'Sun, 20 Aug 2023 09:47:09 GMT',
+451 verbose headers   vary: 'Accept-Encoding',
+451 verbose headers   server: 'cloudflare' }
+452 silly get cb [ 304,
+452 silly get   { date: 'Thu, 14 Sep 2023 12:53:59 GMT',
+452 silly get     connection: 'keep-alive',
+452 silly get     'cf-ray': '8068c6a639450df5-AMS',
+452 silly get     'cf-cache-status': 'HIT',
+452 silly get     age: '181',
+452 silly get     'cache-control': 'public, max-age=300',
+452 silly get     etag: '"687a4b2ad9472970aa3e53df2b0b72e4"',
+452 silly get     'last-modified': 'Sun, 20 Aug 2023 09:47:09 GMT',
+452 silly get     vary: 'Accept-Encoding',
+452 silly get     server: 'cloudflare' } ]
+453 verbose etag https://registry.npmjs.org/autoprefixer from cache
+454 verbose get saving autoprefixer to /home/knight/.npm/registry.npmjs.org/autoprefixer/.cache.json
+455 verbose get https://registry.npmjs.org/@types%2freact not expired, no request
+456 silly addNameRange number 2 { name: '@types/react',
+456 silly addNameRange   range: '>=18.2.15 <19.0.0',
+456 silly addNameRange   hasData: true }
+457 silly addNameRange versions [ '@types/react',
+457 silly addNameRange   [ '0.14.14-alpha',
+457 silly addNameRange     '0.14.15-alpha',
+457 silly addNameRange     '0.14.20-alpha',
+457 silly addNameRange     '0.14.21-alpha',
+457 silly addNameRange     '0.14.22-alpha',
+457 silly addNameRange     '0.14.23-alpha',
+457 silly addNameRange     '0.14.24-alpha',
+457 silly addNameRange     '0.14.25-alpha',
+457 silly addNameRange     '0.14.26-alpha',
+457 silly addNameRange     '0.14.27',
+457 silly addNameRange     '0.14.28',
+457 silly addNameRange     '0.14.29',
+457 silly addNameRange     '0.14.30',
+457 silly addNameRange     '0.14.31',
+457 silly addNameRange     '0.14.32',
+457 silly addNameRange     '0.14.33',
+457 silly addNameRange     '0.14.34',
+457 silly addNameRange     '0.14.35',
+457 silly addNameRange     '0.14.36',
+457 silly addNameRange     '0.14.37',
+457 silly addNameRange     '0.14.38',
+457 silly addNameRange     '0.14.39',
+457 silly addNameRange     '0.14.40',
+457 silly addNameRange     '0.14.41',
+457 silly addNameRange     '0.14.42',
+457 silly addNameRange     '0.14.43',
+457 silly addNameRange     '0.14.44',
+457 silly addNameRange     '0.14.45',
+457 silly addNameRange     '0.14.46',
+457 silly addNameRange     '0.14.47',
+457 silly addNameRange     '0.14.48',
+457 silly addNameRange     '0.14.49',
+457 silly addNameRange     '0.14.50',
+457 silly addNameRange     '0.14.51',
+457 silly addNameRange     '0.14.52',
+457 silly addNameRange     '0.14.53',
+457 silly addNameRange     '0.14.54',
+457 silly addNameRange     '0.14.55',
+457 silly addNameRange     '0.14.56',
+457 silly addNameRange     '0.14.57',
+457 silly addNameRange     '0.0.0',
+457 silly addNameRange     '15.0.0',
+457 silly addNameRange     '15.0.1',
+457 silly addNameRange     '15.0.2',
+457 silly addNameRange     '15.0.3',
+457 silly addNameRange     '15.0.4',
+457 silly addNameRange     '15.0.5',
+457 silly addNameRange     '15.0.6',
+457 silly addNameRange     '15.0.7',
+457 silly addNameRange     '15.0.8',
+457 silly addNameRange     '15.0.9',
+457 silly addNameRange     '15.0.10',
+457 silly addNameRange     '15.0.11',
+457 silly addNameRange     '15.0.12',
+457 silly addNameRange     '15.0.13',
+457 silly addNameRange     '15.0.14',
+457 silly addNameRange     '15.0.15',
+457 silly addNameRange     '15.0.16',
+457 silly addNameRange     '15.0.17',
+457 silly addNameRange     '15.0.18',
+457 silly addNameRange     '15.0.19',
+457 silly addNameRange     '15.0.20',
+457 silly addNameRange     '15.0.21',
+457 silly addNameRange     '15.0.22',
+457 silly addNameRange     '15.0.23',
+457 silly addNameRange     '15.0.24',
+457 silly addNameRange     '15.0.25',
+457 silly addNameRange     '15.0.26',
+457 silly addNameRange     '15.0.27',
+457 silly addNameRange     '15.0.28',
+457 silly addNameRange     '15.0.29',
+457 silly addNameRange     '15.0.30',
+457 silly addNameRange     '15.0.31',
+457 silly addNameRange     '15.0.32',
+457 silly addNameRange     '15.0.33',
+457 silly addNameRange     '15.0.34',
+457 silly addNameRange     '15.0.35',
+457 silly addNameRange     '15.0.36',
+457 silly addNameRange     '15.0.37',
+457 silly addNameRange     '15.0.38',
+457 silly addNameRange     '15.0.39',
+457 silly addNameRange     '15.6.0',
+457 silly addNameRange     '16.0.0',
+457 silly addNameRange     '15.6.1',
+457 silly addNameRange     '16.0.1',
+457 silly addNameRange     '16.0.2',
+457 silly addNameRange     '16.0.3',
+457 silly addNameRange     '16.0.4',
+457 silly addNameRange     '16.0.5',
+457 silly addNameRange     '15.6.2',
+457 silly addNameRange     '16.0.6',
+457 silly addNameRange     '15.6.3',
+457 silly addNameRange     '15.6.4',
+457 silly addNameRange     '16.0.7',
+457 silly addNameRange     '16.0.8',
+457 silly addNameRange     '16.0.9',
+457 silly addNameRange     '16.0.10',
+457 silly addNameRange     '16.0.11',
+457 silly addNameRange     '16.0.12',
+457 silly addNameRange     '16.0.13',
+457 silly addNameRange     ... 397 more items ] ]
+458 silly addNamed @types/react@18.2.21
+459 verbose addNamed "18.2.21" is a plain semver version for @types/react
+460 http 304 https://registry.npmjs.org/eslint-plugin-react
+461 verbose headers { date: 'Thu, 14 Sep 2023 12:54:00 GMT',
+461 verbose headers   connection: 'keep-alive',
+461 verbose headers   'cf-ray': '8068c6ae9e800e70-AMS',
+461 verbose headers   'cf-cache-status': 'HIT',
+461 verbose headers   age: '153',
+461 verbose headers   'cache-control': 'public, max-age=300',
+461 verbose headers   etag: '"0c7438a339c0a4bed18b2d74b74527dd"',
+461 verbose headers   'last-modified': 'Wed, 16 Aug 2023 04:22:45 GMT',
+461 verbose headers   vary: 'Accept-Encoding',
+461 verbose headers   server: 'cloudflare' }
+462 silly get cb [ 304,
+462 silly get   { date: 'Thu, 14 Sep 2023 12:54:00 GMT',
+462 silly get     connection: 'keep-alive',
+462 silly get     'cf-ray': '8068c6ae9e800e70-AMS',
+462 silly get     'cf-cache-status': 'HIT',
+462 silly get     age: '153',
+462 silly get     'cache-control': 'public, max-age=300',
+462 silly get     etag: '"0c7438a339c0a4bed18b2d74b74527dd"',
+462 silly get     'last-modified': 'Wed, 16 Aug 2023 04:22:45 GMT',
+462 silly get     vary: 'Accept-Encoding',
+462 silly get     server: 'cloudflare' } ]
+463 verbose etag https://registry.npmjs.org/eslint-plugin-react from cache
+464 verbose get saving eslint-plugin-react to /home/knight/.npm/registry.npmjs.org/eslint-plugin-react/.cache.json
+465 http 304 https://registry.npmjs.org/eslint-plugin-react-hooks
+466 verbose headers { date: 'Thu, 14 Sep 2023 12:54:00 GMT',
+466 verbose headers   connection: 'keep-alive',
+466 verbose headers   'cf-ray': '8068c6ae8f6c0e68-AMS',
+466 verbose headers   'cf-cache-status': 'HIT',
+466 verbose headers   age: '68',
+466 verbose headers   'cache-control': 'public, max-age=300',
+466 verbose headers   etag: '"876901fa7dbb9892c7e4e22a28dc3dcf"',
+466 verbose headers   'last-modified': 'Wed, 13 Sep 2023 16:16:02 GMT',
+466 verbose headers   vary: 'Accept-Encoding',
+466 verbose headers   server: 'cloudflare' }
+467 silly get cb [ 304,
+467 silly get   { date: 'Thu, 14 Sep 2023 12:54:00 GMT',
+467 silly get     connection: 'keep-alive',
+467 silly get     'cf-ray': '8068c6ae8f6c0e68-AMS',
+467 silly get     'cf-cache-status': 'HIT',
+467 silly get     age: '68',
+467 silly get     'cache-control': 'public, max-age=300',
+467 silly get     etag: '"876901fa7dbb9892c7e4e22a28dc3dcf"',
+467 silly get     'last-modified': 'Wed, 13 Sep 2023 16:16:02 GMT',
+467 silly get     vary: 'Accept-Encoding',
+467 silly get     server: 'cloudflare' } ]
+468 verbose etag https://registry.npmjs.org/eslint-plugin-react-hooks from cache
+469 verbose get saving eslint-plugin-react-hooks to /home/knight/.npm/registry.npmjs.org/eslint-plugin-react-hooks/.cache.json
+470 http 304 https://registry.npmjs.org/postcss
+471 verbose headers { date: 'Thu, 14 Sep 2023 12:54:00 GMT',
+471 verbose headers   connection: 'keep-alive',
+471 verbose headers   'cf-ray': '8068c6ae8dc11c77-AMS',
+471 verbose headers   'cf-cache-status': 'HIT',
+471 verbose headers   age: '272',
+471 verbose headers   'cache-control': 'public, max-age=300',
+471 verbose headers   etag: '"790b506ee1b727a5f61521842258cd85"',
+471 verbose headers   'last-modified': 'Tue, 29 Aug 2023 17:47:32 GMT',
+471 verbose headers   vary: 'Accept-Encoding',
+471 verbose headers   server: 'cloudflare' }
+472 silly get cb [ 304,
+472 silly get   { date: 'Thu, 14 Sep 2023 12:54:00 GMT',
+472 silly get     connection: 'keep-alive',
+472 silly get     'cf-ray': '8068c6ae8dc11c77-AMS',
+472 silly get     'cf-cache-status': 'HIT',
+472 silly get     age: '272',
+472 silly get     'cache-control': 'public, max-age=300',
+472 silly get     etag: '"790b506ee1b727a5f61521842258cd85"',
+472 silly get     'last-modified': 'Tue, 29 Aug 2023 17:47:32 GMT',
+472 silly get     vary: 'Accept-Encoding',
+472 silly get     server: 'cloudflare' } ]
+473 verbose etag https://registry.npmjs.org/postcss from cache
+474 verbose get saving postcss to /home/knight/.npm/registry.npmjs.org/postcss/.cache.json
+475 silly cache afterAdd @types/react-dom@18.2.7
+476 verbose afterAdd /home/knight/.npm/@types/react-dom/18.2.7/package/package.json not in flight; writing
+477 silly cache afterAdd @vitejs/plugin-react@4.0.4
+478 verbose afterAdd /home/knight/.npm/@vitejs/plugin-react/4.0.4/package/package.json not in flight; writing
+479 silly cache afterAdd @types/react@18.2.21
+480 verbose afterAdd /home/knight/.npm/@types/react/18.2.21/package/package.json not in flight; writing
+481 silly resolveWithNewModule eslint-plugin-react-refresh@0.4.3 checking installable status
+482 silly cache add args [ 'eslint-plugin-react-refresh@^0.4.3', null ]
+483 verbose cache add spec eslint-plugin-react-refresh@^0.4.3
+484 silly cache add parsed spec Result {
+484 silly cache add   raw: 'eslint-plugin-react-refresh@^0.4.3',
+484 silly cache add   scope: null,
+484 silly cache add   name: 'eslint-plugin-react-refresh',
+484 silly cache add   rawSpec: '^0.4.3',
+484 silly cache add   spec: '>=0.4.3 <0.5.0',
+484 silly cache add   type: 'range' }
+485 silly addNamed eslint-plugin-react-refresh@>=0.4.3 <0.5.0
+486 verbose addNamed ">=0.4.3 <0.5.0" is a valid semver range for eslint-plugin-react-refresh
+487 silly addNameRange { name: 'eslint-plugin-react-refresh',
+487 silly addNameRange   range: '>=0.4.3 <0.5.0',
+487 silly addNameRange   hasData: false }
+488 silly mapToRegistry name eslint-plugin-react-refresh
+489 silly mapToRegistry using default registry
+490 silly mapToRegistry registry https://registry.npmjs.org/
+491 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-react-refresh
+492 verbose addNameRange registry:https://registry.npmjs.org/eslint-plugin-react-refresh not in flight; fetching
+493 verbose afterAdd /home/knight/.npm/@types/react-dom/18.2.7/package/package.json written
+494 silly resolveWithNewModule autoprefixer@10.4.15 checking installable status
+495 silly cache add args [ 'autoprefixer@^10.4.15', null ]
+496 verbose cache add spec autoprefixer@^10.4.15
+497 silly cache add parsed spec Result {
+497 silly cache add   raw: 'autoprefixer@^10.4.15',
+497 silly cache add   scope: null,
+497 silly cache add   name: 'autoprefixer',
+497 silly cache add   rawSpec: '^10.4.15',
+497 silly cache add   spec: '>=10.4.15 <11.0.0',
+497 silly cache add   type: 'range' }
+498 silly addNamed autoprefixer@>=10.4.15 <11.0.0
+499 verbose addNamed ">=10.4.15 <11.0.0" is a valid semver range for autoprefixer
+500 silly addNameRange { name: 'autoprefixer',
+500 silly addNameRange   range: '>=10.4.15 <11.0.0',
+500 silly addNameRange   hasData: false }
+501 silly mapToRegistry name autoprefixer
+502 silly mapToRegistry using default registry
+503 silly mapToRegistry registry https://registry.npmjs.org/
+504 silly mapToRegistry uri https://registry.npmjs.org/autoprefixer
+505 verbose addNameRange registry:https://registry.npmjs.org/autoprefixer not in flight; fetching
+506 verbose afterAdd /home/knight/.npm/@vitejs/plugin-react/4.0.4/package/package.json written
+507 silly resolveWithNewModule eslint@8.49.0 checking installable status
+508 silly cache add args [ 'eslint@^8.45.0', null ]
+509 verbose cache add spec eslint@^8.45.0
+510 silly cache add parsed spec Result {
+510 silly cache add   raw: 'eslint@^8.45.0',
+510 silly cache add   scope: null,
+510 silly cache add   name: 'eslint',
+510 silly cache add   rawSpec: '^8.45.0',
+510 silly cache add   spec: '>=8.45.0 <9.0.0',
+510 silly cache add   type: 'range' }
+511 silly addNamed eslint@>=8.45.0 <9.0.0
+512 verbose addNamed ">=8.45.0 <9.0.0" is a valid semver range for eslint
+513 silly addNameRange { name: 'eslint', range: '>=8.45.0 <9.0.0', hasData: false }
+514 silly mapToRegistry name eslint
+515 silly mapToRegistry using default registry
+516 silly mapToRegistry registry https://registry.npmjs.org/
+517 silly mapToRegistry uri https://registry.npmjs.org/eslint
+518 verbose addNameRange registry:https://registry.npmjs.org/eslint not in flight; fetching
+519 silly resolveWithNewModule eslint-plugin-react@7.33.2 checking installable status
+520 silly cache add args [ 'eslint-plugin-react@^7.32.2', null ]
+521 verbose cache add spec eslint-plugin-react@^7.32.2
+522 silly cache add parsed spec Result {
+522 silly cache add   raw: 'eslint-plugin-react@^7.32.2',
+522 silly cache add   scope: null,
+522 silly cache add   name: 'eslint-plugin-react',
+522 silly cache add   rawSpec: '^7.32.2',
+522 silly cache add   spec: '>=7.32.2 <8.0.0',
+522 silly cache add   type: 'range' }
+523 silly addNamed eslint-plugin-react@>=7.32.2 <8.0.0
+524 verbose addNamed ">=7.32.2 <8.0.0" is a valid semver range for eslint-plugin-react
+525 silly addNameRange { name: 'eslint-plugin-react',
+525 silly addNameRange   range: '>=7.32.2 <8.0.0',
+525 silly addNameRange   hasData: false }
+526 silly mapToRegistry name eslint-plugin-react
+527 silly mapToRegistry using default registry
+528 silly mapToRegistry registry https://registry.npmjs.org/
+529 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-react
+530 verbose addNameRange registry:https://registry.npmjs.org/eslint-plugin-react not in flight; fetching
+531 silly resolveWithNewModule postcss@8.4.29 checking installable status
+532 silly cache add args [ 'postcss@^8.4.29', null ]
+533 verbose cache add spec postcss@^8.4.29
+534 silly cache add parsed spec Result {
+534 silly cache add   raw: 'postcss@^8.4.29',
+534 silly cache add   scope: null,
+534 silly cache add   name: 'postcss',
+534 silly cache add   rawSpec: '^8.4.29',
+534 silly cache add   spec: '>=8.4.29 <9.0.0',
+534 silly cache add   type: 'range' }
+535 silly addNamed postcss@>=8.4.29 <9.0.0
+536 verbose addNamed ">=8.4.29 <9.0.0" is a valid semver range for postcss
+537 silly addNameRange { name: 'postcss', range: '>=8.4.29 <9.0.0', hasData: false }
+538 silly mapToRegistry name postcss
+539 silly mapToRegistry using default registry
+540 silly mapToRegistry registry https://registry.npmjs.org/
+541 silly mapToRegistry uri https://registry.npmjs.org/postcss
+542 verbose addNameRange registry:https://registry.npmjs.org/postcss not in flight; fetching
+543 silly resolveWithNewModule eslint-plugin-react-hooks@4.6.0 checking installable status
+544 silly cache add args [ 'eslint-plugin-react-hooks@^4.6.0', null ]
+545 verbose cache add spec eslint-plugin-react-hooks@^4.6.0
+546 silly cache add parsed spec Result {
+546 silly cache add   raw: 'eslint-plugin-react-hooks@^4.6.0',
+546 silly cache add   scope: null,
+546 silly cache add   name: 'eslint-plugin-react-hooks',
+546 silly cache add   rawSpec: '^4.6.0',
+546 silly cache add   spec: '>=4.6.0 <5.0.0',
+546 silly cache add   type: 'range' }
+547 silly addNamed eslint-plugin-react-hooks@>=4.6.0 <5.0.0
+548 verbose addNamed ">=4.6.0 <5.0.0" is a valid semver range for eslint-plugin-react-hooks
+549 silly addNameRange { name: 'eslint-plugin-react-hooks',
+549 silly addNameRange   range: '>=4.6.0 <5.0.0',
+549 silly addNameRange   hasData: false }
+550 silly mapToRegistry name eslint-plugin-react-hooks
+551 silly mapToRegistry using default registry
+552 silly mapToRegistry registry https://registry.npmjs.org/
+553 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-react-hooks
+554 verbose addNameRange registry:https://registry.npmjs.org/eslint-plugin-react-hooks not in flight; fetching
+555 verbose get https://registry.npmjs.org/eslint-plugin-react-refresh not expired, no request
+556 silly addNameRange number 2 { name: 'eslint-plugin-react-refresh',
+556 silly addNameRange   range: '>=0.4.3 <0.5.0',
+556 silly addNameRange   hasData: true }
+557 silly addNameRange versions [ 'eslint-plugin-react-refresh',
+557 silly addNameRange   [ '0.1.0',
+557 silly addNameRange     '0.2.0',
+557 silly addNameRange     '0.2.1',
+557 silly addNameRange     '0.3.0',
+557 silly addNameRange     '0.3.1',
+557 silly addNameRange     '0.3.2',
+557 silly addNameRange     '0.3.3',
+557 silly addNameRange     '0.3.4',
+557 silly addNameRange     '0.3.5',
+557 silly addNameRange     '0.4.0',
+557 silly addNameRange     '0.4.1',
+557 silly addNameRange     '0.4.2',
+557 silly addNameRange     '0.4.3' ] ]
+558 silly addNamed eslint-plugin-react-refresh@0.4.3
+559 verbose addNamed "0.4.3" is a plain semver version for eslint-plugin-react-refresh
+560 silly resolveWithNewModule tailwindcss@3.3.3 checking installable status
+561 silly cache add args [ 'tailwindcss@^3.3.3', null ]
+562 verbose cache add spec tailwindcss@^3.3.3
+563 silly cache add parsed spec Result {
+563 silly cache add   raw: 'tailwindcss@^3.3.3',
+563 silly cache add   scope: null,
+563 silly cache add   name: 'tailwindcss',
+563 silly cache add   rawSpec: '^3.3.3',
+563 silly cache add   spec: '>=3.3.3 <4.0.0',
+563 silly cache add   type: 'range' }
+564 silly addNamed tailwindcss@>=3.3.3 <4.0.0
+565 verbose addNamed ">=3.3.3 <4.0.0" is a valid semver range for tailwindcss
+566 silly addNameRange { name: 'tailwindcss', range: '>=3.3.3 <4.0.0', hasData: false }
+567 silly mapToRegistry name tailwindcss
+568 silly mapToRegistry using default registry
+569 silly mapToRegistry registry https://registry.npmjs.org/
+570 silly mapToRegistry uri https://registry.npmjs.org/tailwindcss
+571 verbose addNameRange registry:https://registry.npmjs.org/tailwindcss not in flight; fetching
+572 verbose get https://registry.npmjs.org/autoprefixer not expired, no request
+573 silly addNameRange number 2 { name: 'autoprefixer',
+573 silly addNameRange   range: '>=10.4.15 <11.0.0',
+573 silly addNameRange   hasData: true }
+574 silly addNameRange versions [ 'autoprefixer',
+574 silly addNameRange   [ '0.1.20130409',
+574 silly addNameRange     '0.2.20130413',
+574 silly addNameRange     '0.3.20130423',
+574 silly addNameRange     '0.3.20130424',
+574 silly addNameRange     '0.3.20130427',
+574 silly addNameRange     '0.3.20130502',
+574 silly addNameRange     '0.4.20130507',
+574 silly addNameRange     '0.4.20130515',
+574 silly addNameRange     '0.4.20130521',
+574 silly addNameRange     '0.4.20130524',
+574 silly addNameRange     '0.4.20130528',
+574 silly addNameRange     '0.4.20130530',
+574 silly addNameRange     '0.4.20130603',
+574 silly addNameRange     '0.5.20130615',
+574 silly addNameRange     '0.5.20130616',
+574 silly addNameRange     '0.5.20130617',
+574 silly addNameRange     '0.5.20130625',
+574 silly addNameRange     '0.5.20130626',
+574 silly addNameRange     '0.5.20130629',
+574 silly addNameRange     '0.6.20130716',
+574 silly addNameRange     '0.6.20130721',
+574 silly addNameRange     '0.6.20130728',
+574 silly addNameRange     '0.6.20130729',
+574 silly addNameRange     '0.6.20130730',
+574 silly addNameRange     '0.6.20130731',
+574 silly addNameRange     '0.7.20130805',
+574 silly addNameRange     '0.7.20130806',
+574 silly addNameRange     '0.7.20130807',
+574 silly addNameRange     '0.7.20130808',
+574 silly addNameRange     '0.7.20130810',
+574 silly addNameRange     '0.7.20130824',
+574 silly addNameRange     '0.8.20130902',
+574 silly addNameRange     '0.8.20130903',
+574 silly addNameRange     '0.8.20130906',
+574 silly addNameRange     '0.8.20130911',
+574 silly addNameRange     '0.8.20130919',
+574 silly addNameRange     '0.8.20130923',
+574 silly addNameRange     '0.8.20131001',
+574 silly addNameRange     '0.8.20131006',
+574 silly addNameRange     '0.8.20131007',
+574 silly addNameRange     '0.8.20131009',
+574 silly addNameRange     '0.8.20131015',
+574 silly addNameRange     '0.8.20131017',
+574 silly addNameRange     '0.8.20131020',
+574 silly addNameRange     '0.8.20131029',
+574 silly addNameRange     '0.8.20131104',
+574 silly addNameRange     '0.8.20131209',
+574 silly addNameRange     '0.8.20131213',
+574 silly addNameRange     '1.0.20131222',
+574 silly addNameRange     '1.0.20140103',
+574 silly addNameRange     '1.0.20140109',
+574 silly addNameRange     '1.0.20140110',
+574 silly addNameRange     '1.0.20140117',
+574 silly addNameRange     '1.0.20140130',
+574 silly addNameRange     '1.0.20140203',
+574 silly addNameRange     '1.0.20140213',
+574 silly addNameRange     '1.1.20140218',
+574 silly addNameRange     '1.1.20140222',
+574 silly addNameRange     '1.1.20140226',
+574 silly addNameRange     '1.1.20140302',
+574 silly addNameRange     '1.1.20140319',
+574 silly addNameRange     '1.1.20140327',
+574 silly addNameRange     '1.1.20140403',
+574 silly addNameRange     '1.1.20140410',
+574 silly addNameRange     '1.1.20140429',
+574 silly addNameRange     '1.1.20140430',
+574 silly addNameRange     '1.1.20140510',
+574 silly addNameRange     '1.1.20140512',
+574 silly addNameRange     '1.1.20140521',
+574 silly addNameRange     '1.1.20140523',
+574 silly addNameRange     '1.1.20140605',
+574 silly addNameRange     '1.2.0',
+574 silly addNameRange     '1.3.0',
+574 silly addNameRange     '1.3.1',
+574 silly addNameRange     '2.0.0',
+574 silly addNameRange     '2.0.1',
+574 silly addNameRange     '2.0.2',
+574 silly addNameRange     '2.1.0',
+574 silly addNameRange     '2.1.1',
+574 silly addNameRange     '2.2.0',
+574 silly addNameRange     '3.0.0',
+574 silly addNameRange     '3.1.0',
+574 silly addNameRange     '4.0.0',
+574 silly addNameRange     '5.0.0',
+574 silly addNameRange     '5.1.0',
+574 silly addNameRange     '5.1.1',
+574 silly addNameRange     '5.2.0',
+574 silly addNameRange     '6.0.0',
+574 silly addNameRange     '6.0.1',
+574 silly addNameRange     '6.0.2',
+574 silly addNameRange     '6.0.3',
+574 silly addNameRange     '6.1.0',
+574 silly addNameRange     '6.1.1',
+574 silly addNameRange     '6.1.2',
+574 silly addNameRange     '6.2.0',
+574 silly addNameRange     '6.2.1',
+574 silly addNameRange     '6.2.2',
+574 silly addNameRange     '6.2.3',
+574 silly addNameRange     '6.3.0',
+574 silly addNameRange     '6.3.1',
+574 silly addNameRange     ... 139 more items ] ]
+575 silly addNamed autoprefixer@10.4.15
+576 verbose addNamed "10.4.15" is a plain semver version for autoprefixer
+577 verbose get https://registry.npmjs.org/eslint not expired, no request
+578 silly addNameRange number 2 { name: 'eslint', range: '>=8.45.0 <9.0.0', hasData: true }
+579 silly addNameRange versions [ 'eslint',
+579 silly addNameRange   [ '0.0.4',
+579 silly addNameRange     '0.0.5',
+579 silly addNameRange     '0.0.6',
+579 silly addNameRange     '0.0.7',
+579 silly addNameRange     '0.1.0-dev',
+579 silly addNameRange     '0.1.0',
+579 silly addNameRange     '0.1.1',
+579 silly addNameRange     '0.1.2',
+579 silly addNameRange     '0.1.3',
+579 silly addNameRange     '0.1.4',
+579 silly addNameRange     '0.2.0',
+579 silly addNameRange     '0.3.0',
+579 silly addNameRange     '0.4.0',
+579 silly addNameRange     '0.4.1',
+579 silly addNameRange     '0.4.2',
+579 silly addNameRange     '0.4.3',
+579 silly addNameRange     '0.4.4',
+579 silly addNameRange     '0.4.5',
+579 silly addNameRange     '0.5.0',
+579 silly addNameRange     '0.5.1',
+579 silly addNameRange     '0.6.0',
+579 silly addNameRange     '0.6.1',
+579 silly addNameRange     '0.6.2',
+579 silly addNameRange     '0.7.1',
+579 silly addNameRange     '0.7.2',
+579 silly addNameRange     '0.7.3',
+579 silly addNameRange     '0.7.4',
+579 silly addNameRange     '0.8.0',
+579 silly addNameRange     '0.8.1',
+579 silly addNameRange     '0.8.2',
+579 silly addNameRange     '0.9.0',
+579 silly addNameRange     '0.9.1',
+579 silly addNameRange     '0.9.2',
+579 silly addNameRange     '0.10.0-alpha',
+579 silly addNameRange     '0.10.0-alpha.1',
+579 silly addNameRange     '0.10.0-alpha.2',
+579 silly addNameRange     '0.10.0',
+579 silly addNameRange     '0.11.0-alpha.0',
+579 silly addNameRange     '0.10.1',
+579 silly addNameRange     '0.10.2',
+579 silly addNameRange     '0.11.0',
+579 silly addNameRange     '0.12.0',
+579 silly addNameRange     '0.13.0',
+579 silly addNameRange     '0.14.0',
+579 silly addNameRange     '0.14.1',
+579 silly addNameRange     '0.15.0',
+579 silly addNameRange     '0.15.1',
+579 silly addNameRange     '0.16.0',
+579 silly addNameRange     '0.16.1',
+579 silly addNameRange     '0.16.2',
+579 silly addNameRange     '0.17.0',
+579 silly addNameRange     '0.17.1',
+579 silly addNameRange     '0.18.0',
+579 silly addNameRange     '0.19.0',
+579 silly addNameRange     '0.20.0',
+579 silly addNameRange     '0.21.0',
+579 silly addNameRange     '0.21.1',
+579 silly addNameRange     '0.21.2',
+579 silly addNameRange     '0.22.0',
+579 silly addNameRange     '0.22.1',
+579 silly addNameRange     '0.23.0',
+579 silly addNameRange     '0.24.0',
+579 silly addNameRange     '0.24.1',
+579 silly addNameRange     '1.0.0-rc-1',
+579 silly addNameRange     '1.0.0-rc-2',
+579 silly addNameRange     '1.0.0-rc-3',
+579 silly addNameRange     '1.0.0',
+579 silly addNameRange     '1.1.0',
+579 silly addNameRange     '1.2.0',
+579 silly addNameRange     '1.2.1',
+579 silly addNameRange     '1.3.0',
+579 silly addNameRange     '1.3.1',
+579 silly addNameRange     '1.4.0',
+579 silly addNameRange     '1.4.1',
+579 silly addNameRange     '1.4.2',
+579 silly addNameRange     '1.4.3',
+579 silly addNameRange     '1.5.0',
+579 silly addNameRange     '1.5.1',
+579 silly addNameRange     '1.6.0',
+579 silly addNameRange     '1.7.0',
+579 silly addNameRange     '1.7.1',
+579 silly addNameRange     '1.7.2',
+579 silly addNameRange     '1.7.3',
+579 silly addNameRange     '1.8.0',
+579 silly addNameRange     '1.9.0',
+579 silly addNameRange     '1.10.0',
+579 silly addNameRange     '1.10.1',
+579 silly addNameRange     '1.10.2',
+579 silly addNameRange     '1.10.3',
+579 silly addNameRange     '2.0.0-alpha-1',
+579 silly addNameRange     '2.0.0-alpha-2',
+579 silly addNameRange     '2.0.0-beta.1',
+579 silly addNameRange     '2.0.0-beta.2',
+579 silly addNameRange     '2.0.0-beta.3',
+579 silly addNameRange     '2.0.0-rc.0',
+579 silly addNameRange     '2.0.0-rc.1',
+579 silly addNameRange     '2.0.0',
+579 silly addNameRange     '2.1.0',
+579 silly addNameRange     '2.2.0',
+579 silly addNameRange     '2.3.0',
+579 silly addNameRange     ... 238 more items ] ]
+580 silly addNamed eslint@8.49.0
+581 verbose addNamed "8.49.0" is a plain semver version for eslint
+582 verbose get https://registry.npmjs.org/eslint-plugin-react not expired, no request
+583 silly addNameRange number 2 { name: 'eslint-plugin-react',
+583 silly addNameRange   range: '>=7.32.2 <8.0.0',
+583 silly addNameRange   hasData: true }
+584 silly addNameRange versions [ 'eslint-plugin-react',
+584 silly addNameRange   [ '1.0.0',
+584 silly addNameRange     '1.1.0',
+584 silly addNameRange     '1.2.0',
+584 silly addNameRange     '1.2.1',
+584 silly addNameRange     '1.2.2',
+584 silly addNameRange     '1.3.0',
+584 silly addNameRange     '1.4.0',
+584 silly addNameRange     '1.4.1',
+584 silly addNameRange     '1.5.0',
+584 silly addNameRange     '1.6.0',
+584 silly addNameRange     '1.6.1',
+584 silly addNameRange     '2.0.0',
+584 silly addNameRange     '2.0.1',
+584 silly addNameRange     '2.0.2',
+584 silly addNameRange     '2.1.0',
+584 silly addNameRange     '2.1.1',
+584 silly addNameRange     '2.2.0',
+584 silly addNameRange     '2.3.0',
+584 silly addNameRange     '2.4.0',
+584 silly addNameRange     '2.5.0',
+584 silly addNameRange     '2.5.1',
+584 silly addNameRange     '2.5.2',
+584 silly addNameRange     '2.6.0',
+584 silly addNameRange     '2.6.1',
+584 silly addNameRange     '2.6.2',
+584 silly addNameRange     '2.6.3',
+584 silly addNameRange     '2.6.4',
+584 silly addNameRange     '2.7.0',
+584 silly addNameRange     '2.7.1',
+584 silly addNameRange     '3.0.0',
+584 silly addNameRange     '3.1.0',
+584 silly addNameRange     '3.2.0',
+584 silly addNameRange     '3.2.1',
+584 silly addNameRange     '3.2.2',
+584 silly addNameRange     '3.2.3',
+584 silly addNameRange     '3.3.0',
+584 silly addNameRange     '3.3.1',
+584 silly addNameRange     '3.3.2',
+584 silly addNameRange     '3.4.0',
+584 silly addNameRange     '3.4.1',
+584 silly addNameRange     '3.4.2',
+584 silly addNameRange     '3.5.0',
+584 silly addNameRange     '3.5.1',
+584 silly addNameRange     '3.6.0',
+584 silly addNameRange     '3.6.1',
+584 silly addNameRange     '3.6.2',
+584 silly addNameRange     '3.6.3',
+584 silly addNameRange     '3.7.0',
+584 silly addNameRange     '3.7.1',
+584 silly addNameRange     '3.8.0',
+584 silly addNameRange     '3.9.0',
+584 silly addNameRange     '3.10.0',
+584 silly addNameRange     '3.11.0',
+584 silly addNameRange     '3.11.1',
+584 silly addNameRange     '3.11.2',
+584 silly addNameRange     '3.11.3',
+584 silly addNameRange     '3.12.0',
+584 silly addNameRange     '3.13.0',
+584 silly addNameRange     '3.13.1',
+584 silly addNameRange     '3.14.0',
+584 silly addNameRange     '3.15.0',
+584 silly addNameRange     '3.16.0',
+584 silly addNameRange     '3.16.1',
+584 silly addNameRange     '4.0.0-rc.0',
+584 silly addNameRange     '4.0.0-rc.1',
+584 silly addNameRange     '4.0.0',
+584 silly addNameRange     '4.1.0',
+584 silly addNameRange     '4.2.0',
+584 silly addNameRange     '4.2.1',
+584 silly addNameRange     '4.2.2',
+584 silly addNameRange     '4.2.3',
+584 silly addNameRange     '4.3.0',
+584 silly addNameRange     '5.0.0',
+584 silly addNameRange     '5.0.1',
+584 silly addNameRange     '5.1.0',
+584 silly addNameRange     '5.1.1',
+584 silly addNameRange     '5.2.0',
+584 silly addNameRange     '5.2.1',
+584 silly addNameRange     '5.2.2',
+584 silly addNameRange     '6.0.0-alpha.1',
+584 silly addNameRange     '6.0.0-alpha.2',
+584 silly addNameRange     '6.0.0-rc.0',
+584 silly addNameRange     '6.0.0-rc.1',
+584 silly addNameRange     '6.0.0',
+584 silly addNameRange     '6.1.0',
+584 silly addNameRange     '6.1.1',
+584 silly addNameRange     '6.1.2',
+584 silly addNameRange     '6.2.0',
+584 silly addNameRange     '6.2.1',
+584 silly addNameRange     '6.2.2',
+584 silly addNameRange     '6.3.0',
+584 silly addNameRange     '6.4.0',
+584 silly addNameRange     '6.4.1',
+584 silly addNameRange     '6.5.0',
+584 silly addNameRange     '6.6.0',
+584 silly addNameRange     '6.7.0',
+584 silly addNameRange     '6.7.1',
+584 silly addNameRange     '6.8.0',
+584 silly addNameRange     '6.9.0',
+584 silly addNameRange     '6.10.0',
+584 silly addNameRange     ... 100 more items ] ]
+585 silly addNamed eslint-plugin-react@7.33.2
+586 verbose addNamed "7.33.2" is a plain semver version for eslint-plugin-react
+587 verbose afterAdd /home/knight/.npm/@types/react/18.2.21/package/package.json written
+588 verbose get https://registry.npmjs.org/postcss not expired, no request
+589 silly addNameRange number 2 { name: 'postcss', range: '>=8.4.29 <9.0.0', hasData: true }
+590 silly addNameRange versions [ 'postcss',
+590 silly addNameRange   [ '0.1.0',
+590 silly addNameRange     '0.2.0',
+590 silly addNameRange     '0.3.0',
+590 silly addNameRange     '0.3.1',
+590 silly addNameRange     '0.3.2',
+590 silly addNameRange     '0.3.3',
+590 silly addNameRange     '0.3.4',
+590 silly addNameRange     '0.3.5',
+590 silly addNameRange     '1.0.0',
+590 silly addNameRange     '2.0.0',
+590 silly addNameRange     '2.1.0',
+590 silly addNameRange     '2.1.1',
+590 silly addNameRange     '2.1.2',
+590 silly addNameRange     '2.2.0',
+590 silly addNameRange     '2.2.1',
+590 silly addNameRange     '2.2.2',
+590 silly addNameRange     '2.2.3',
+590 silly addNameRange     '2.2.4',
+590 silly addNameRange     '2.2.5',
+590 silly addNameRange     '2.2.6',
+590 silly addNameRange     '3.0.0',
+590 silly addNameRange     '3.0.1',
+590 silly addNameRange     '3.0.2',
+590 silly addNameRange     '3.0.3',
+590 silly addNameRange     '3.0.4',
+590 silly addNameRange     '3.0.5',
+590 silly addNameRange     '3.0.6',
+590 silly addNameRange     '3.0.7',
+590 silly addNameRange     '4.0.0',
+590 silly addNameRange     '4.0.1',
+590 silly addNameRange     '4.0.2',
+590 silly addNameRange     '4.0.3',
+590 silly addNameRange     '4.0.4',
+590 silly addNameRange     '4.0.5',
+590 silly addNameRange     '4.0.6',
+590 silly addNameRange     '4.1.0',
+590 silly addNameRange     '4.1.1',
+590 silly addNameRange     '4.1.2',
+590 silly addNameRange     '4.1.3',
+590 silly addNameRange     '4.1.4',
+590 silly addNameRange     '4.1.5',
+590 silly addNameRange     '4.1.6',
+590 silly addNameRange     '4.1.7',
+590 silly addNameRange     '4.1.8',
+590 silly addNameRange     '4.1.9',
+590 silly addNameRange     '4.1.10',
+590 silly addNameRange     '4.1.11',
+590 silly addNameRange     '4.1.12',
+590 silly addNameRange     '4.1.13',
+590 silly addNameRange     '4.1.14',
+590 silly addNameRange     '4.1.15',
+590 silly addNameRange     '4.1.16',
+590 silly addNameRange     '5.0.0',
+590 silly addNameRange     '5.0.1',
+590 silly addNameRange     '5.0.2',
+590 silly addNameRange     '5.0.3',
+590 silly addNameRange     '5.0.4',
+590 silly addNameRange     '5.0.5',
+590 silly addNameRange     '5.0.6',
+590 silly addNameRange     '5.0.7',
+590 silly addNameRange     '5.0.8',
+590 silly addNameRange     '5.0.9',
+590 silly addNameRange     '5.0.10',
+590 silly addNameRange     '5.0.11',
+590 silly addNameRange     '5.0.12',
+590 silly addNameRange     '5.0.13',
+590 silly addNameRange     '5.0.14',
+590 silly addNameRange     '5.0.15',
+590 silly addNameRange     '5.0.16',
+590 silly addNameRange     '5.0.17',
+590 silly addNameRange     '5.0.18',
+590 silly addNameRange     '5.0.19',
+590 silly addNameRange     '5.0.20',
+590 silly addNameRange     '5.0.21',
+590 silly addNameRange     '5.1.0',
+590 silly addNameRange     '5.1.1',
+590 silly addNameRange     '5.1.2',
+590 silly addNameRange     '5.2.0',
+590 silly addNameRange     '5.2.1',
+590 silly addNameRange     '5.2.2',
+590 silly addNameRange     '5.2.3',
+590 silly addNameRange     '5.2.4',
+590 silly addNameRange     '5.2.5',
+590 silly addNameRange     '5.2.6',
+590 silly addNameRange     '5.2.7',
+590 silly addNameRange     '5.2.8',
+590 silly addNameRange     '5.2.9',
+590 silly addNameRange     '5.2.10',
+590 silly addNameRange     '5.2.11',
+590 silly addNameRange     '5.2.12',
+590 silly addNameRange     '5.2.13',
+590 silly addNameRange     '5.2.14',
+590 silly addNameRange     '5.2.15',
+590 silly addNameRange     '5.2.16',
+590 silly addNameRange     '5.2.17',
+590 silly addNameRange     '6.0.0',
+590 silly addNameRange     '6.0.1',
+590 silly addNameRange     '6.0.2',
+590 silly addNameRange     '6.0.3',
+590 silly addNameRange     '6.0.4',
+590 silly addNameRange     ... 143 more items ] ]
+591 silly addNamed postcss@8.4.29
+592 verbose addNamed "8.4.29" is a plain semver version for postcss
+593 verbose get https://registry.npmjs.org/eslint-plugin-react-hooks not expired, no request
+594 silly addNameRange number 2 { name: 'eslint-plugin-react-hooks',
+594 silly addNameRange   range: '>=4.6.0 <5.0.0',
+594 silly addNameRange   hasData: true }
+595 silly addNameRange versions [ 'eslint-plugin-react-hooks',
+595 silly addNameRange   [ '0.0.0',
+595 silly addNameRange     '1.0.0',
+595 silly addNameRange     '0.0.0-11565a207',
+595 silly addNameRange     '1.0.1',
+595 silly addNameRange     '0.0.0-0e4135e8c',
+595 silly addNameRange     '0.0.0-dfabb77a9',
+595 silly addNameRange     '1.0.2',
+595 silly addNameRange     '1.1.0-alpha.0',
+595 silly addNameRange     '1.1.0-alpha.1',
+595 silly addNameRange     '1.1.0-rc.0',
+595 silly addNameRange     '0.0.0-b668168d4',
+595 silly addNameRange     '0.0.0-29b7b775f',
+595 silly addNameRange     '1.1.0',
+595 silly addNameRange     '1.2.0',
+595 silly addNameRange     '1.3.0',
+595 silly addNameRange     '1.4.0',
+595 silly addNameRange     '1.5.0-alpha.0',
+595 silly addNameRange     '1.5.0-beta.0',
+595 silly addNameRange     '1.5.0-beta.1',
+595 silly addNameRange     '1.5.0',
+595 silly addNameRange     '1.5.1',
+595 silly addNameRange     '0.0.0-679402a66',
+595 silly addNameRange     '1.6.0',
+595 silly addNameRange     '0.0.0-c35e37aab',
+595 silly addNameRange     '1.7.0-alpha.0',
+595 silly addNameRange     '0.0.0-a9eff329c',
+595 silly addNameRange     '0.0.0-9ebe1768a',
+595 silly addNameRange     '0.0.0-4221565e1',
+595 silly addNameRange     '0.0.0-fb28e9048',
+595 silly addNameRange     '0.0.0-6da04b5d8',
+595 silly addNameRange     '0.0.0-50b50c26f',
+595 silly addNameRange     '0.0.0-fa1e8df11',
+595 silly addNameRange     '1.6.1',
+595 silly addNameRange     '0.0.0-9f395904c',
+595 silly addNameRange     '0.0.0-424099da6',
+595 silly addNameRange     '0.0.0-b4178af81',
+595 silly addNameRange     '0.0.0-bbd21066e',
+595 silly addNameRange     '0.0.0-db3ae32b8',
+595 silly addNameRange     '0.0.0-375616788',
+595 silly addNameRange     '0.0.0-a1dbb852c',
+595 silly addNameRange     '1.7.0-rc.0',
+595 silly addNameRange     '1.7.0',
+595 silly addNameRange     '0.0.0-8d5403877',
+595 silly addNameRange     '2.0.0',
+595 silly addNameRange     '2.0.1',
+595 silly addNameRange     '0.0.0-45b6443c9',
+595 silly addNameRange     '0.0.0-b4b8a349a',
+595 silly addNameRange     '0.0.0-3694a3b5e',
+595 silly addNameRange     '2.1.0',
+595 silly addNameRange     '0.0.0-d346d9208',
+595 silly addNameRange     '2.1.1',
+595 silly addNameRange     '0.0.0-4ab6305f6',
+595 silly addNameRange     '2.1.2',
+595 silly addNameRange     '0.0.0-experimental-d364d8555',
+595 silly addNameRange     '0.0.0-experimental-d7feeb25a',
+595 silly addNameRange     '0.0.0-7082d5a2d',
+595 silly addNameRange     '0.0.0-experimental-7082d5a2d',
+595 silly addNameRange     '0.0.0-1022ee0ec',
+595 silly addNameRange     '0.0.0-experimental-1022ee0ec',
+595 silly addNameRange     '0.0.0-5faf377df',
+595 silly addNameRange     '0.0.0-experimental-5faf377df',
+595 silly addNameRange     '2.2.0',
+595 silly addNameRange     '0.0.0-experimental-f6b8d31a7',
+595 silly addNameRange     '0.0.0-f6b8d31a7',
+595 silly addNameRange     '0.0.0-experimental-38dd17ab9',
+595 silly addNameRange     '0.0.0-38dd17ab9',
+595 silly addNameRange     '0.0.0-b53ea6ca0',
+595 silly addNameRange     '0.0.0-experimental-b53ea6ca0',
+595 silly addNameRange     '2.3.0',
+595 silly addNameRange     '0.0.0-experimental-0e6839614',
+595 silly addNameRange     '0.0.0-experimental-3f3fe0874',
+595 silly addNameRange     '0.0.0-experimental-2c169a568',
+595 silly addNameRange     '0.0.0-f42431abe',
+595 silly addNameRange     '0.0.0-experimental-f42431abe',
+595 silly addNameRange     '0.0.0-57333ca33',
+595 silly addNameRange     '0.0.0-experimental-57333ca33',
+595 silly addNameRange     '0.0.0-241c4467e',
+595 silly addNameRange     '0.0.0-experimental-241c4467e',
+595 silly addNameRange     '2.4.0-alpha.0',
+595 silly addNameRange     '2.4.0',
+595 silly addNameRange     '0.0.0-experimental-ea6ed3dbb',
+595 silly addNameRange     '0.0.0-ea6ed3dbb',
+595 silly addNameRange     '0.0.0-experimental-5de5b6150',
+595 silly addNameRange     '0.0.0-5de5b6150',
+595 silly addNameRange     '0.0.0-8d7535e54',
+595 silly addNameRange     '0.0.0-experimental-8d7535e54',
+595 silly addNameRange     '0.0.0-d28bd2994',
+595 silly addNameRange     '0.0.0-experimental-d28bd2994',
+595 silly addNameRange     '2.5.0',
+595 silly addNameRange     '0.0.0-experimental-355970aa4',
+595 silly addNameRange     '0.0.0-experimental-235a6c4af',
+595 silly addNameRange     '0.0.0-235a6c4af',
+595 silly addNameRange     '0.0.0-experimental-8b155d261',
+595 silly addNameRange     '0.0.0-experimental-aae83a4b9',
+595 silly addNameRange     '0.0.0-da834083c',
+595 silly addNameRange     '2.5.1',
+595 silly addNameRange     '3.0.0',
+595 silly addNameRange     '0.0.0-d7382b6c4',
+595 silly addNameRange     '0.0.0-experimental-d7382b6c4',
+595 silly addNameRange     '0.0.0-experimental-e5d06e34b',
+595 silly addNameRange     ... 1197 more items ] ]
+596 silly addNamed eslint-plugin-react-hooks@4.6.0
+597 verbose addNamed "4.6.0" is a plain semver version for eslint-plugin-react-hooks
+598 verbose get https://registry.npmjs.org/tailwindcss not expired, no request
+599 silly addNameRange number 2 { name: 'tailwindcss', range: '>=3.3.3 <4.0.0', hasData: true }
+600 silly addNameRange versions [ 'tailwindcss',
+600 silly addNameRange   [ '0.0.1',
+600 silly addNameRange     '0.1.0',
+600 silly addNameRange     '0.1.1',
+600 silly addNameRange     '0.1.2',
+600 silly addNameRange     '0.1.3',
+600 silly addNameRange     '0.1.4',
+600 silly addNameRange     '0.1.5',
+600 silly addNameRange     '0.1.6',
+600 silly addNameRange     '0.2.0',
+600 silly addNameRange     '0.2.1',
+600 silly addNameRange     '0.2.2',
+600 silly addNameRange     '0.3.0',
+600 silly addNameRange     '0.4.0',
+600 silly addNameRange     '0.4.1',
+600 silly addNameRange     '0.4.2',
+600 silly addNameRange     '0.4.3',
+600 silly addNameRange     '0.5.0',
+600 silly addNameRange     '0.5.1',
+600 silly addNameRange     '0.5.2',
+600 silly addNameRange     '0.5.3',
+600 silly addNameRange     '0.6.0',
+600 silly addNameRange     '0.6.1',
+600 silly addNameRange     '0.6.2',
+600 silly addNameRange     '0.6.3',
+600 silly addNameRange     '0.6.4',
+600 silly addNameRange     '0.6.5',
+600 silly addNameRange     '0.6.6',
+600 silly addNameRange     '0.7.0',
+600 silly addNameRange     '0.7.1',
+600 silly addNameRange     '0.7.2',
+600 silly addNameRange     '0.7.3',
+600 silly addNameRange     '0.7.4',
+600 silly addNameRange     '1.0.0-beta.1',
+600 silly addNameRange     '1.0.0-beta.2',
+600 silly addNameRange     '1.0.0-beta.3',
+600 silly addNameRange     '1.0.0-beta.4',
+600 silly addNameRange     '1.0.0-beta.5',
+600 silly addNameRange     '1.0.0-beta.6',
+600 silly addNameRange     '1.0.0-beta.7',
+600 silly addNameRange     '1.0.0-beta.8',
+600 silly addNameRange     '1.0.0-beta.9',
+600 silly addNameRange     '1.0.0-beta.10',
+600 silly addNameRange     '1.0.0',
+600 silly addNameRange     '1.0.1',
+600 silly addNameRange     '1.0.2',
+600 silly addNameRange     '1.0.3',
+600 silly addNameRange     '1.0.4',
+600 silly addNameRange     '1.0.5',
+600 silly addNameRange     '1.0.6',
+600 silly addNameRange     '1.1.0',
+600 silly addNameRange     '1.1.1',
+600 silly addNameRange     '1.1.2',
+600 silly addNameRange     '1.2.0-canary.0',
+600 silly addNameRange     '1.2.0-canary.1',
+600 silly addNameRange     '1.1.3',
+600 silly addNameRange     '1.1.4',
+600 silly addNameRange     '1.2.0-canary.2',
+600 silly addNameRange     '1.2.0-canary.3',
+600 silly addNameRange     '1.2.0-canary.4',
+600 silly addNameRange     '1.2.0-canary.5',
+600 silly addNameRange     '1.2.0-canary.6',
+600 silly addNameRange     '1.2.0-canary.7',
+600 silly addNameRange     '1.2.0-canary.8',
+600 silly addNameRange     '1.2.0',
+600 silly addNameRange     '1.3.0',
+600 silly addNameRange     '1.3.1',
+600 silly addNameRange     '1.3.2',
+600 silly addNameRange     '1.3.3',
+600 silly addNameRange     '1.3.4',
+600 silly addNameRange     '1.3.5',
+600 silly addNameRange     '1.4.0',
+600 silly addNameRange     '1.4.1',
+600 silly addNameRange     '1.4.2',
+600 silly addNameRange     '1.4.3',
+600 silly addNameRange     '1.4.4',
+600 silly addNameRange     '1.4.5',
+600 silly addNameRange     '1.4.6',
+600 silly addNameRange     '0.0.0-658250a96',
+600 silly addNameRange     '1.5.0',
+600 silly addNameRange     '1.5.1',
+600 silly addNameRange     '1.5.2',
+600 silly addNameRange     '1.6.0',
+600 silly addNameRange     '1.6.1',
+600 silly addNameRange     '1.6.2',
+600 silly addNameRange     '1.6.3',
+600 silly addNameRange     '1.7.0',
+600 silly addNameRange     '1.7.1',
+600 silly addNameRange     '1.7.2',
+600 silly addNameRange     '1.7.3',
+600 silly addNameRange     '1.7.4',
+600 silly addNameRange     '1.7.5',
+600 silly addNameRange     '1.7.6',
+600 silly addNameRange     '1.8.0',
+600 silly addNameRange     '1.8.1',
+600 silly addNameRange     '1.8.2',
+600 silly addNameRange     '1.8.3',
+600 silly addNameRange     '1.8.4',
+600 silly addNameRange     '1.8.5',
+600 silly addNameRange     '1.8.6',
+600 silly addNameRange     '1.8.7',
+600 silly addNameRange     ... 1381 more items ] ]
+601 silly addNamed tailwindcss@3.3.3
+602 verbose addNamed "3.3.3" is a plain semver version for tailwindcss
+603 silly cache afterAdd eslint-plugin-react@7.33.2
+604 verbose afterAdd /home/knight/.npm/eslint-plugin-react/7.33.2/package/package.json not in flight; writing
+605 silly cache afterAdd autoprefixer@10.4.15
+606 verbose afterAdd /home/knight/.npm/autoprefixer/10.4.15/package/package.json not in flight; writing
+607 silly cache afterAdd eslint@8.49.0
+608 verbose afterAdd /home/knight/.npm/eslint/8.49.0/package/package.json not in flight; writing
+609 silly cache afterAdd eslint-plugin-react-hooks@4.6.0
+610 verbose afterAdd /home/knight/.npm/eslint-plugin-react-hooks/4.6.0/package/package.json not in flight; writing
+611 silly cache afterAdd postcss@8.4.29
+612 verbose afterAdd /home/knight/.npm/postcss/8.4.29/package/package.json not in flight; writing
+613 verbose afterAdd /home/knight/.npm/eslint-plugin-react/7.33.2/package/package.json written
+614 verbose afterAdd /home/knight/.npm/autoprefixer/10.4.15/package/package.json written
+615 verbose afterAdd /home/knight/.npm/eslint/8.49.0/package/package.json written
+616 verbose afterAdd /home/knight/.npm/eslint-plugin-react-hooks/4.6.0/package/package.json written
+617 verbose afterAdd /home/knight/.npm/postcss/8.4.29/package/package.json written
+618 silly cache afterAdd eslint-plugin-react-refresh@0.4.3
+619 verbose afterAdd /home/knight/.npm/eslint-plugin-react-refresh/0.4.3/package/package.json not in flight; writing
+620 verbose stack Error: Missing required argument #1
+620 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+620 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+620 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+620 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+620 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+620 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+620 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+620 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+620 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+620 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+621 verbose cwd /home/knight/Desktop/MY PROJECTS/movies api zuri/movie-app
+622 error Linux 5.4.0-84-generic
+623 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+624 error node v8.10.0
+625 error npm  v3.5.2
+626 error code EMISSINGARG
+627 error typeerror Error: Missing required argument #1
+627 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+627 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+627 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+627 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+627 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+627 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+627 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+627 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+627 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+627 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+628 error typeerror This is an error with npm itself. Please report this error at:
+628 error typeerror     <http://github.com/npm/npm/issues>
+629 verbose exit [ 1, true ]
